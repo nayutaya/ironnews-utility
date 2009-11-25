@@ -11,14 +11,14 @@ class FilterTest < Test::Unit::TestCase
   end
 
   def test_reject__ok
-    File.foreach(File.join(File.dirname(__FILE__), "..", "..", "filter.ok.txt")) { |line|
+    File.foreach(File.join(File.dirname(__FILE__), "..", "..", "filter_cases_ok.txt")) { |line|
       url = line.chomp
       assert_equal(false, @module.reject?(url), url)
     }
   end
 
   def test_reject__ng
-    File.foreach(File.join(File.dirname(__FILE__), "..", "..", "filter.ng.txt")) { |line|
+    File.foreach(File.join(File.dirname(__FILE__), "..", "..", "filter_cases_ng.txt")) { |line|
       url = line.chomp
       assert_equal(true, @module.reject?(url), url)
     }
