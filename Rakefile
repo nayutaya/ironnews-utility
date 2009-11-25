@@ -9,7 +9,7 @@ task :test => ["ruby:test", "python:test"]
 
 namespace :ruby do
   desc "generate codes of ruby version"
-  task :build => [:canonical]
+  task :build => [:canonical, :filter]
 
   desc "generate canonical table of ruby version"
   task :canonical do
@@ -25,6 +25,27 @@ namespace :ruby do
         line.chomp.split(/\t+/)
       }.each { |pattern, replace|
         file.printf("    [%%r'%s', '%s'].freeze,\n", pattern, replace)
+      }
+
+      file.puts("  ].freeze")
+      file.puts("end")
+    }
+  end
+
+  desc "generate filter table of ruby version"
+  task :filter do
+    infile  = File.join(File.dirname(__FILE__), "filter_patterns.txt")
+    outfile = File.join(File.dirname(__FILE__), "ruby", "lib", "bookmark_utility", "filter_table.rb")
+
+    File.open(outfile, "wb") { |file|
+      file.puts("")
+      file.puts("module BookmarkUtility")
+      file.puts("  FilterTable = [")
+
+      File.foreach(infile).map { |line|
+        line.chomp
+      }.each { |pattern|
+        file.printf("    %%r'%s',\n", pattern)
       }
 
       file.puts("  ].freeze")
