@@ -26,3 +26,9 @@ desc "build gem"
 task :build do
   sh "gem build #{NAME}.gemspec"
 end
+
+task :push do
+  require "lib/bookmark_utility"
+  target = "#{NAME}-#{BookmarkUtility::VERSION}.gem"
+  sh "gem push #{target}"
+end
