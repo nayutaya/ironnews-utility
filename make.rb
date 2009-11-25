@@ -2,7 +2,7 @@
 
 patterns = File.open("canonical_patterns.txt", "rb") { |file|
   file.map { |line|
-    line.chomp.split(/\t/)
+    line.chomp.split(/\t+/)
   }
 }
 
@@ -12,7 +12,7 @@ File.open("ruby/lib/bookmark_utility/canonical_table.rb", "wb") { |file|
   file.puts("  CanonicalTable = [")
 
   patterns.each { |pattern, replace|
-    file.printf("    [/%s/, '%s'].freeze,\n", pattern, replace)
+    file.printf("    [%%r'%s', '%s'].freeze,\n", pattern, replace)
   }
 
   file.puts("  ].freeze")
