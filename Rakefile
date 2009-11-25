@@ -34,5 +34,23 @@ namespace :python do
 
   desc "generate canonical table for python"
   task :canonical do
+    infile  = File.join(File.dirname(__FILE__), "canonical_patterns.txt")
+    outfile = File.join(File.dirname(__FILE__), "python", "lib", "bookmark_utility", "canonical_table.py")
+
+    File.open(outfile, "wb") { |file|
+      file.puts("# -*- coding: utf-8 -*-")
+      file.puts("")
+      file.puts("import re")
+      file.puts("")
+      file.puts("CanonicalTable = [")
+
+      File.foreach(infile).map { |line|
+        line.chomp.split(/\t+/)
+      }.each { |pattern, replace|
+        file.printf(%|  (re.compile(r"%s"), r"%s"),\n|, pattern, replace)
+      }
+
+      file.puts("]")
+    }
   end
 end
