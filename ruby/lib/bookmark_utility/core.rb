@@ -4,7 +4,7 @@ require File.join(File.dirname(__FILE__), "canonical_table")
 module BookmarkUtility
   def self.get_canonical_url(url)
     url = url.dup
-    CANONICAL_TABLE.each { |pattern, replace|
+    CanonicalTable.each { |pattern, replace|
       if url.sub!(pattern, replace)
         break
       end
