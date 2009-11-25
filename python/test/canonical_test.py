@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 
-import os
-import sys
-sys.path.append(os.path.join(os.path.dirname(__file__), "..", "lib"))
-
 import unittest
 import re
+import os
+import sys
+
+sys.path.append(os.path.join(os.path.dirname(__file__), "..", "lib"))
 from bookmark_utility import BookmarkUtility
 
 class TestCanonical(unittest.TestCase):
