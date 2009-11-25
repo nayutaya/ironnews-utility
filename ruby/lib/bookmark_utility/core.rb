@@ -1,5 +1,5 @@
 
-require File.join(File.dirname(__FILE__), "canonical")
+require File.join(File.dirname(__FILE__), "canonical_table")
 
 module BookmarkUtility
   def self.get_canonical_url(url)

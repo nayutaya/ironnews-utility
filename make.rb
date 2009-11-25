@@ -6,7 +6,7 @@ patterns = File.open("canonical_patterns.txt", "rb") { |file|
   }
 }
 
-File.open("ruby/lib/bookmark_utility/canonical.rb", "wb") { |file|
+File.open("ruby/lib/bookmark_utility/canonical_table.rb", "wb") { |file|
   file.puts("")
   file.puts("module BookmarkUtility")
   file.puts("  CANONICAL_TABLE = [")
