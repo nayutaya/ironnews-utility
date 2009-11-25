@@ -14,9 +14,6 @@ module BookmarkUtility
   end
 
   def self.reject?(url)
-    FilterTable.each { |pattern|
-      return true if pattern =~ url
-    }
-    return false
+    return FilterTable.any? { |pattern| pattern =~ url }
   end
 end
