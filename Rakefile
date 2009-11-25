@@ -1,6 +1,7 @@
 
-task :default => ["ruby:build", "python:build"] do
-end
+task :default => :test
+task :build => ["ruby:build", "python:build"]
+task :test => ["ruby:test", "python:test"]
 
 namespace :ruby do
   desc "generate code for ruby"
@@ -25,6 +26,12 @@ namespace :ruby do
       file.puts("  ].freeze")
       file.puts("end")
     }
+  end
+
+  desc "run tests for ruby"
+  task :test do
+    target = File.join(File.dirname(__FILE__), "ruby", "test", "alltests.rb")
+    sh "ruby #{target}"
   end
 end
 
@@ -52,5 +59,11 @@ namespace :python do
 
       file.puts("]")
     }
+  end
+
+  desc "run tests for a library of Python"
+  task :test do
+    target = File.join(File.dirname(__FILE__), "python", "test", "alltests.py")
+    sh "python #{target}"
   end
 end
