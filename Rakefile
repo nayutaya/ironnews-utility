@@ -1,13 +1,17 @@
 
 task :default => :test
+
+desc "generate codes"
 task :build => ["ruby:build", "python:build"]
+
+desc "run tests (default task)"
 task :test => ["ruby:test", "python:test"]
 
 namespace :ruby do
-  desc "generate code for ruby"
+  desc "generate codes of ruby version"
   task :build => [:canonical]
 
-  desc "generate canonical table for ruby"
+  desc "generate canonical table of ruby version"
   task :canonical do
     infile  = File.join(File.dirname(__FILE__), "canonical_patterns.txt")
     outfile = File.join(File.dirname(__FILE__), "ruby", "lib", "bookmark_utility", "canonical_table.rb")
@@ -28,7 +32,7 @@ namespace :ruby do
     }
   end
 
-  desc "run tests for ruby"
+  desc "run tests of ruby version"
   task :test do
     target = File.join(File.dirname(__FILE__), "ruby", "test", "alltests.rb")
     sh "ruby #{target}"
@@ -36,10 +40,10 @@ namespace :ruby do
 end
 
 namespace :python do
-  desc "generate code for python"
+  desc "generate codes of python version"
   task :build => [:canonical]
 
-  desc "generate canonical table for python"
+  desc "generate canonical table of python version"
   task :canonical do
     infile  = File.join(File.dirname(__FILE__), "canonical_patterns.txt")
     outfile = File.join(File.dirname(__FILE__), "python", "lib", "bookmark_utility", "canonical_table.py")
@@ -61,7 +65,7 @@ namespace :python do
     }
   end
 
-  desc "run tests for a library of Python"
+  desc "run tests of python version"
   task :test do
     target = File.join(File.dirname(__FILE__), "python", "test", "alltests.py")
     sh "python #{target}"
