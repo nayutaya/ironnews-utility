@@ -62,7 +62,7 @@ end
 
 namespace :python do
   desc "generate codes of python version"
-  task :build => [:canonical]
+  task :build => [:canonical, :filter]
 
   desc "generate canonical table of python version"
   task :canonical do
@@ -80,6 +80,28 @@ namespace :python do
         line.chomp.split(/\t+/)
       }.each { |pattern, replace|
         file.printf(%|  (re.compile(r"%s"), r"%s"),\n|, pattern, replace)
+      }
+
+      file.puts("]")
+    }
+  end
+
+  desc "generate filter table of python version"
+  task :filter do
+    infile  = File.join(File.dirname(__FILE__), "filter_patterns.txt")
+    outfile = File.join(File.dirname(__FILE__), "python", "lib", "bookmark_utility", "filter_table.py")
+
+    File.open(outfile, "wb") { |file|
+      file.puts("# -*- coding: utf-8 -*-")
+      file.puts("")
+      file.puts("import re")
+      file.puts("")
+      file.puts("FilterTable = [")
+
+      File.foreach(infile).map { |line|
+        line.chomp
+      }.each { |pattern|
+        file.printf("  re.compile(r\"%s\"),\n", pattern)
       }
 
       file.puts("]")
