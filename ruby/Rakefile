@@ -14,7 +14,7 @@ task :gemspec do
   version = BookmarkUtility::VERSION
   date    = Time.now.strftime("%Y-%m-%d")
 
-  files      = Dir.glob("**/*").select { |s| File.file?(s) }
+  files      = Dir.glob("**/*").select { |s| File.file?(s) }.reject { |s| /\.gem\z/ =~ s }
   test_files = Dir.glob("test/**").select { |s| File.file?(s) }
 
   File.open("#{NAME}.gemspec", "wb") { |file|
