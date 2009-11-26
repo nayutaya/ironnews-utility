@@ -5,8 +5,8 @@ Gem::Specification.new do |s|
   s.required_ruby_version     = Gem::Requirement.new(">= 1.8.6")
 
   s.name    = "nayutaya-bookmark-utility"
-  s.version = "0.0.1"
-  s.date    = "2009-11-25"
+  s.version = "0.0.2"
+  s.date    = "2009-11-26"
 
   s.authors = ["Yuya Kato"]
   s.email   = "yuyakato@gmail.com"
@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
   s.files = [
     "lib/bookmark_utility/canonical_table.rb",
     "lib/bookmark_utility/core.rb",
+    "lib/bookmark_utility/filter_table.rb",
     "lib/bookmark_utility/version.rb",
     "lib/bookmark_utility.rb",
     "nayutaya-bookmark-utility.gemspec",
@@ -29,10 +30,12 @@ Gem::Specification.new do |s|
     "Rakefile",
     "test/alltests.rb",
     "test/canonical_test.rb",
+    "test/filter_test.rb",
   ]
   s.test_files = [
     "test/alltests.rb",
     "test/canonical_test.rb",
+    "test/filter_test.rb",
   ]
   s.extra_rdoc_files = []
 end
