@@ -43,9 +43,9 @@ namespace :ruby do
       file.puts("  FilterTable = [")
 
       File.foreach(infile).map { |line|
-        line.chomp
-      }.each { |pattern|
-        file.printf("    %%r'%s',\n", pattern)
+        line.chomp.split(/\t+/)
+      }.each { |pattern, comment|
+        file.printf("    %%r'%s', # %s\n", pattern, comment)
       }
 
       file.puts("  ].freeze")
@@ -99,9 +99,9 @@ namespace :python do
       file.puts("FilterTable = (")
 
       File.foreach(infile).map { |line|
-        line.chomp
-      }.each { |pattern|
-        file.printf("  re.compile(r'%s'),\n", pattern)
+        line.chomp.split(/\t+/)
+      }.each { |pattern, comment|
+        file.printf("  re.compile(r'%s'), # %s\n", pattern, comment)
       }
 
       file.puts(")")
