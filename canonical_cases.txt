@@ -1,3 +1,4 @@
+http://japan.cnet.com/news/tech/story/0,2000056025,20404146,00.htm?ref=rss	http://japan.cnet.com/news/tech/story/0,2000056025,20404146,00.htm
 http://journal.mycom.co.jp/news/2009/11/09/027/?rt=na	http://journal.mycom.co.jp/news/2009/11/09/027/index.html
 http://journal.mycom.co.jp/series/photograph/031/?rt=na	http://journal.mycom.co.jp/series/photograph/031/index.html
 http://mainichi.jp/select/today/news/20091109k0000e040037000c.html?link_id=RSH02	http://mainichi.jp/select/today/news/20091109k0000e040037000c.html
@@ -7,6 +8,7 @@ http://news.searchina.ne.jp/disp.cgi?y=2009&d=1112&f=national_1112_004.shtml&pt=
 http://osaka.yomiuri.co.jp/ekiben/eb91118a.htm?from=ichioshi	http://osaka.yomiuri.co.jp/ekiben/eb91118a.htm
 http://osaka.yomiuri.co.jp/news/20091110-OYO1T00789.htm?from=top	http://osaka.yomiuri.co.jp/news/20091110-OYO1T00789.htm
 http://osaka.yomiuri.co.jp/news/20091116-OYO1T00291.htm?from=main1	http://osaka.yomiuri.co.jp/news/20091116-OYO1T00291.htm
+http://osaka.yomiuri.co.jp/news/20091126-OYO1T00565.htm?from=main4	http://osaka.yomiuri.co.jp/news/20091126-OYO1T00565.htm
 http://www.asahi.com/	http://www.asahi.com/
 http://www.asahi.com/national/update/1120/SEB200911200005.html?ref=rss	http://www.asahi.com/national/update/1120/SEB200911200005.html
 http://www.asahi.com/sports/update/1120/TKY200911200100.html?ref=rss	http://www.asahi.com/sports/update/1120/TKY200911200100.html
