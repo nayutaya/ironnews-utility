@@ -1,5 +1,5 @@
 
-task :default => :test
+task :default => [:build, :test]
 
 desc "generate codes"
 task :build => ["ruby:build", "python:build"]
