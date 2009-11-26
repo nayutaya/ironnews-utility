@@ -74,15 +74,15 @@ namespace :python do
       file.puts("")
       file.puts("import re")
       file.puts("")
-      file.puts("CanonicalTable = [")
+      file.puts("CanonicalTable = (")
 
       File.foreach(infile).map { |line|
         line.chomp.split(/\t+/)
       }.each { |pattern, replace|
-        file.printf(%|  (re.compile(r"%s"), r"%s"),\n|, pattern, replace)
+        file.printf(%"  (re.compile(r'%s'), r'%s'),\n", pattern, replace)
       }
 
-      file.puts("]")
+      file.puts(")")
     }
   end
 
@@ -96,15 +96,15 @@ namespace :python do
       file.puts("")
       file.puts("import re")
       file.puts("")
-      file.puts("FilterTable = [")
+      file.puts("FilterTable = (")
 
       File.foreach(infile).map { |line|
         line.chomp
       }.each { |pattern|
-        file.printf("  re.compile(r\"%s\"),\n", pattern)
+        file.printf("  re.compile(r'%s'),\n", pattern)
       }
 
-      file.puts("]")
+      file.puts(")")
     }
   end
 
