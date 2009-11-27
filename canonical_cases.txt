@@ -9,7 +9,7 @@ http://osaka.yomiuri.co.jp/ekiben/eb91118a.htm?from=ichioshi	http://osaka.yomiur
 http://osaka.yomiuri.co.jp/news/20091110-OYO1T00789.htm?from=top	http://osaka.yomiuri.co.jp/news/20091110-OYO1T00789.htm
 http://osaka.yomiuri.co.jp/news/20091116-OYO1T00291.htm?from=main1	http://osaka.yomiuri.co.jp/news/20091116-OYO1T00291.htm
 http://osaka.yomiuri.co.jp/news/20091126-OYO1T00565.htm?from=main4	http://osaka.yomiuri.co.jp/news/20091126-OYO1T00565.htm
-http://slashdot.jp/articles/09/11/26/1039214.shtml	http://slashdot.jp/articles/09/11/26/1039214
+http://slashdot.jp/articles/09/11/26/1039214.shtml	http://slashdot.jp/article.pl?sid=09/11/26/1039214
 http://www.asahi.com/	http://www.asahi.com/
 http://www.asahi.com/national/update/1120/SEB200911200005.html?ref=rss	http://www.asahi.com/national/update/1120/SEB200911200005.html
 http://www.asahi.com/sports/update/1120/TKY200911200100.html?ref=rss	http://www.asahi.com/sports/update/1120/TKY200911200100.html
