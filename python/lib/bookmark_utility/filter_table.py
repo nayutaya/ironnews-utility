@@ -5,6 +5,7 @@ import re
 FilterTable = (
   re.compile(r'\Ahttp://car\.nikkei\.co\.jp/release/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://contents\.innolife\.net/'), # 理由: title要素に記事名が含まれていないため
+  re.compile(r'\Ahttp://japan\.donga\.com/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://japanese\.donga\.com/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://mainichi\.jp/life/money/kabu/nsj/news/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://markets\.nikkei\.co\.jp/'), # 理由: title要素に記事名が含まれていないため
