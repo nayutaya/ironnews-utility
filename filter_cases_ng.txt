@@ -4,6 +4,7 @@ http://japan.donga.com/srv/service.php3?bicode=040000&biid=2009113014688
 http://japanese.donga.com/srv/service.php3?biid=2009112779378
 http://mainichi.jp/life/money/kabu/nsj/news/20091125186696.html
 http://markets.nikkei.co.jp/
+http://news.ibc.co.jp/item_12561.html
 http://news.searchina.ne.jp/disp.cgi?y=2009&d=1127&f=stockname_1127_044.shtml
 http://release.nikkei.co.jp/detail.cfm?relID=237328&lindID=5
 http://rkk.jp/cgi-bin/newscgi/localnews.cgi?id=NS003200911181656200111
@@ -11,11 +12,13 @@ http://www.hab.co.jp/headline/news0000004311.html
 http://www.iwate-np.co.jp/newspack/cgi-bin/newspack_s.cgi?s_national_l+CN2009111601000361_4
 http://www.keidanren.or.jp/japanese/journal/times/2009/1126/05.html
 http://www.mxtv.co.jp/mxnews/news/200911188.html
+http://www.nikkei.co.jp/kaigai/eu/20091129D2M2901129.html
 http://www.nikkei.co.jp/kyushu/news/200911250000002184.html
 http://www.nikkei.co.jp/news/
 http://www.nikkei.co.jp/news/shakai/20091118AT1G1704417112009.html
 http://www.pjnews.net/
 http://www.tohkaishimpo.com/scripts/index_main.cgi?mode=kiji_zoom&cd=nws5178
 http://www.travelvision.jp/modules/news1/article.php?storyid=43054
+http://www.usfl.com/Daily/News/09/11/1130_020.asp?id=75227
 http://www.wbs.co.jp/news.html?p=7294
 http://www2.knb.ne.jp/news/20091125_22134.htm
