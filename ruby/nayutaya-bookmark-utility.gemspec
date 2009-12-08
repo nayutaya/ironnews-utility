@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.name    = "nayutaya-bookmark-utility"
   s.version = "0.0.7"
-  s.date    = "2009-12-02"
+  s.date    = "2009-12-03"
 
   s.authors = ["Yuya Kato"]
   s.email   = "yuyakato@gmail.com"
