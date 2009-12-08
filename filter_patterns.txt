@@ -9,6 +9,7 @@
 \Ahttp://release\.nikkei\.co\.jp/				理由: title要素に記事名が含まれていないため
 \Ahttp://rkk\.jp/								理由: title要素に記事名が含まれていないため
 \Ahttp://www2\.knb\.ne\.jp/						理由: title要素に記事名が含まれていないため
+\Ahttp://www\.chugoku-np\.co\.jp/News/Tn		理由: title要素に記事名が含まれていないため
 \Ahttp://www\.hab\.co\.jp/headline/				理由: title要素に記事名が含まれていないため
 \Ahttp://www\.iwate-np\.co\.jp/					理由: title要素に記事名が含まれていないため
 \Ahttp://www\.keidanren\.or\.jp/				理由: title要素に記事名が含まれていないため

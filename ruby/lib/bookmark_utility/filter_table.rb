@@ -24,5 +24,6 @@ module BookmarkUtility
     %r'\Ahttp://www\.travelvision\.jp/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.usfl\.com/Daily/News/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.wbs\.co\.jp/', # 理由: title要素に記事名が含まれていないため
+    %r'\Ahttp://www\.chugoku-np\.co\.jp/News/Tn', # 理由: title要素に記事名が含まれていないため
   ].freeze
 end
