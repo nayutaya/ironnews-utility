@@ -1,6 +1,7 @@
 
 module BookmarkUtility
   FilterTable = [
+    %r'\Ahttp://car\.nikkei\.co\.jp/news/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://car\.nikkei\.co\.jp/release/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://contents\.innolife\.net/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://japan\.donga\.com/', # 理由: title要素に記事名が含まれていないため
