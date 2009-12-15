@@ -13,10 +13,12 @@ module BookmarkUtility
     %r'\Ahttp://release\.nikkei\.co\.jp/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://rkk\.jp/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www2\.knb\.ne\.jp/', # 理由: title要素に記事名が含まれていないため
+    %r'\Ahttp://www\.chemicaldaily\.co\.jp/news/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.chugoku-np\.co\.jp/News/Tn', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.hab\.co\.jp/headline/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.iwate-np\.co\.jp/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.keidanren\.or\.jp/', # 理由: title要素に記事名が含まれていないため
+    %r'\Ahttp://www\.kentsu\.co\.jp/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.mxtv\.co\.jp/mxnews/news/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.nikkei\.co\.jp/kaigai/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.nikkei\.co\.jp/kyushu/news/', # 理由: title要素に記事名が含まれていないため
