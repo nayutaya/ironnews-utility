@@ -5,8 +5,8 @@ Gem::Specification.new do |s|
   s.required_ruby_version     = Gem::Requirement.new(">= 1.8.6")
 
   s.name    = "nayutaya-bookmark-utility"
-  s.version = "0.0.9"
-  s.date    = "2009-12-15"
+  s.version = "0.1.0"
+  s.date    = "2009-12-18"
 
   s.authors = ["Yuya Kato"]
   s.email   = "yuyakato@gmail.com"
