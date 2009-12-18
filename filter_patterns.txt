@@ -1,5 +1,6 @@
 \Ahttp://car\.nikkei\.co\.jp/news/				理由: title要素に記事名が含まれていないため
 \Ahttp://car\.nikkei\.co\.jp/release/			理由: title要素に記事名が含まれていないため
+\Ahttp://cargo-news\.co\.jp/					理由: title要素に記事名が含まれていないため
 \Ahttp://contents\.innolife\.net/				理由: title要素に記事名が含まれていないため
 \Ahttp://japan\.donga\.com/						理由: title要素に記事名が含まれていないため
 \Ahttp://japanese\.donga\.com/					理由: title要素に記事名が含まれていないため
@@ -14,6 +15,7 @@
 \Ahttp://www\.chugoku-np\.co\.jp/News/Tn		理由: title要素に記事名が含まれていないため
 \Ahttp://www\.hab\.co\.jp/headline/				理由: title要素に記事名が含まれていないため
 \Ahttp://www\.iwate-np\.co\.jp/					理由: title要素に記事名が含まれていないため
+\Ahttp://www\.japanjournals\.com/				理由: title要素に記事名が含まれていないため
 \Ahttp://www\.keidanren\.or\.jp/				理由: title要素に記事名が含まれていないため
 \Ahttp://www\.kentsu\.co\.jp/					理由: title要素に記事名が含まれていないため
 \Ahttp://www\.mxtv\.co\.jp/mxnews/news/			理由: title要素に記事名が含まれていないため
@@ -21,7 +23,11 @@
 \Ahttp://www\.nikkei\.co\.jp/kyushu/news/		理由: title要素に記事名が含まれていないため
 \Ahttp://www\.nikkei\.co\.jp/news/				理由: title要素に記事名が含まれていないため
 \Ahttp://www\.pjnews\.net/						理由: title要素に記事名が含まれていないため
+\Ahttp://www\.portfolio\.nl/					理由: title要素に記事名が含まれていないため
+\Ahttp://www\.shonai-nippo\.co\.jp/				理由: title要素に記事名が含まれていないため
 \Ahttp://www\.tohkaishimpo\.com/				理由: title要素に記事名が含まれていないため
+\Ahttp://www\.toyama\.hokkoku\.co\.jp/subpage/	理由: title要素に記事名が含まれていないため
 \Ahttp://www\.travelvision\.jp/					理由: title要素に記事名が含まれていないため
 \Ahttp://www\.usfl\.com/Daily/News/				理由: title要素に記事名が含まれていないため
 \Ahttp://www\.wbs\.co\.jp/						理由: title要素に記事名が含まれていないため
+\Ahttp://www\.xinhua\.jp/						理由: 記事の閲覧が有料であるため
