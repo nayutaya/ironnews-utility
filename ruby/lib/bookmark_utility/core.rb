@@ -19,17 +19,17 @@ module BookmarkUtility
 
   def self.cleanse_title(url, title)
     table = {
-      "mainichi.jp" => / - 毎日ｊｐ\(毎日新聞\)\Z/,
-      "www.asahi.com" => /\Aasahi\.com（朝日新聞社）：/,
-      "www.yomiuri.co.jp" => / : YOMIURI ONLINE（読売新聞）\Z/,
+      "mainichi.jp" => [/\A(.+) - 毎日ｊｐ\(毎日新聞\)\Z/, '\1'],
+      "www.asahi.com" => [/\Aasahi\.com（朝日新聞社）：(.+)\Z/, '\1'],
+      "www.yomiuri.co.jp" => [/\A(.+) : YOMIURI ONLINE（読売新聞）\Z/, '\1'],
     }
 
     uri = URI.parse(url)
     title = title.dup
 
-    pattern = table[uri.host]
+    pattern, replace = table[uri.host]
     if pattern
-      title.gsub!(pattern, "")
+      title.gsub!(pattern, replace)
     end
 
     return title
