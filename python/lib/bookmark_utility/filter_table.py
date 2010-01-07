@@ -3,6 +3,7 @@
 import re
 
 FilterTable = (
+  re.compile(r'\Ahttp://cambodiawatch\.net/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://car\.nikkei\.co\.jp/news/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://car\.nikkei\.co\.jp/release/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://cargo-news\.co\.jp/'), # 理由: title要素に記事名が含まれていないため
@@ -29,6 +30,7 @@ FilterTable = (
   re.compile(r'\Ahttp://www\.nikkei\.co\.jp/news/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://www\.pjnews\.net/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://www\.portfolio\.nl/'), # 理由: title要素に記事名が含まれていないため
+  re.compile(r'\Ahttp://www\.sanpo-pub\.co\.jp/column/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://www\.shonai-nippo\.co\.jp/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://www\.tohkaishimpo\.com/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://www\.toyama\.hokkoku\.co\.jp/subpage/'), # 理由: title要素に記事名が含まれていないため

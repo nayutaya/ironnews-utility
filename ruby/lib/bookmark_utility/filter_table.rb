@@ -1,6 +1,7 @@
 
 module BookmarkUtility
   FilterTable = [
+    %r'\Ahttp://cambodiawatch\.net/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://car\.nikkei\.co\.jp/news/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://car\.nikkei\.co\.jp/release/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://cargo-news\.co\.jp/', # 理由: title要素に記事名が含まれていないため
@@ -27,6 +28,7 @@ module BookmarkUtility
     %r'\Ahttp://www\.nikkei\.co\.jp/news/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.pjnews\.net/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.portfolio\.nl/', # 理由: title要素に記事名が含まれていないため
+    %r'\Ahttp://www\.sanpo-pub\.co\.jp/column/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.shonai-nippo\.co\.jp/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.tohkaishimpo\.com/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.toyama\.hokkoku\.co\.jp/subpage/', # 理由: title要素に記事名が含まれていないため
