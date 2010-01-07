@@ -12,3 +12,11 @@ http://www.chunichi.co.jp/article/aichi/20091112/CK2009111202000185.html	中日�
 http://www.chunichi.co.jp/article/aichi/20091124/CK2009112402000026.html	中日新聞:勝川駅の高架化完了　記念乗車会に２５０人:愛知(CHUNICHI Web)	勝川駅の高架化完了　記念乗車会に２５０人:愛知
 http://www.yomiuri.co.jp/national/news/20100105-OYT1T00745.htm	ＪＲ東サイト改ざんウイルス、ホンダなども被害 : 社会 : YOMIURI ONLINE（読売新聞）	ＪＲ東サイト改ざんウイルス、ホンダなども被害 : 社会
 http://www.yomiuri.co.jp/national/news/20100105-OYT1T01399.htm	東武東上線の踏切、女性はねられ重傷 : 社会 : YOMIURI ONLINE（読売新聞）	東武東上線の踏切、女性はねられ重傷 : 社会
+http://www.jiji.com/jc/c?g=eco_30&k=2009111800949	時事ドットコム：現職委員２人の辞任求める＝ＪＲ西の報告受け前原国交相	現職委員２人の辞任求める＝ＪＲ西の報告受け前原国交相
+http://www.jiji.com/jc/c?g=eco_30&k=2009112400798	時事ドットコム：未着工３区間「年内に基本方針」＝整備新幹線−前原国交相	未着工３区間「年内に基本方針」＝整備新幹線−前原国交相
+http://slashdot.jp/article.pl?sid=09/06/16/0529244	リニア中央新幹線、ルートを巡って論争に - スラッシュドット・ジャパン	リニア中央新幹線、ルートを巡って論争に
+http://slashdot.jp/article.pl?sid=09/03/31/0414257	JTB時刻表、通巻999号を迎える - スラッシュドット・ジャパン	JTB時刻表、通巻999号を迎える
+http://www.tokyo-np.co.jp/article/chiba/20091107/CK2009110702000096.html	東京新聞:モノレールが衝突　千葉　作業中のクレーン車に　乗客１６０人けがなし:千葉(TOKYO Web)	モノレールが衝突　千葉　作業中のクレーン車に　乗客１６０人けがなし:千葉
+http://www.tokyo-np.co.jp/article/chiba/20091115/CK2009111502000082.html	東京新聞:ボジョレ列車　１９日に特別運行　千葉モノレール:千葉(TOKYO Web)	ボジョレ列車　１９日に特別運行　千葉モノレール:千葉
+http://www.hokkaido-np.co.jp/news/aomori/202811.html	津軽鉄道のストーブ列車あすから運行−北海道新聞[青森からこんにちは]	津軽鉄道のストーブ列車あすから運行
+http://www.hokkaido-np.co.jp/news/aomori/202993.html	東北新幹線 全線開通まであと1年−北海道新聞[青森からこんにちは]	東北新幹線 全線開通まであと1年
