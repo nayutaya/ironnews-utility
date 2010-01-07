@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <title>ironnews</title>
+  <script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+  <script type="text/javascript" src="../lib/bookmark_utility.js"></script>
+  <script type="text/javascript" src="cleanse_title_cases.js"></script>
+ </head>
+ <body>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>URL</th>
+        <th>入力/出力</th>
+        <th>結果</th>
+      </tr>
+    </thead>
+    <tbody id="result">
+    </tbody>
+  </table>
+  <script type="text/javascript">
+    var result = $("#result");
+
+    $.each(CleanseTitleCases, function() {
+      var url    = this[0];
+      var input  = this[1];
+      var output = this[2];
+
+      var expected = BookmarkUtility.cleanse_title(url, input);
+      var valid    = (expected == output);
+
+      var row1 = $("<tr/>");
+      var row2 = $("<tr/>");
+
+      var cell1 = $("<td rowspan='2'/>");
+      var anchor = $("<a>■</a>");
+      anchor.attr("href", url);
+      cell1.append(anchor);
+      row1.append(cell1);
+
+      var cell2 = $("<td/>");
+      cell2.text(input);
+      row1.append(cell2);
+
+      var cell3 = $("<td/>");
+      cell3.text(output);
+      row2.append(cell3);
+
+      var cell4 = $("<td rowspan='2'/>");
+      cell4.text(valid ? "OK" : "NG");
+      row1.append(cell4);
+
+      result.append(row1);
+      result.append(row2);
+    });
+  </script>
+ </body>
+</html>
