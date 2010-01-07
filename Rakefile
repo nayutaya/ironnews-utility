@@ -2,7 +2,7 @@
 task :default => [:build, :test]
 
 desc "generate codes"
-task :build => ["ruby:build", "python:build"]
+task :build => ["ruby:build", "python:build", "js:build"]
 
 desc "run tests (default task)"
 task :test => ["ruby:test", "python:test"]
@@ -133,5 +133,34 @@ namespace :python do
   task :test do
     target = File.join(File.dirname(__FILE__), "python", "test", "alltests.py")
     sh "python #{target}"
+  end
+end
+
+namespace :js do
+  desc "js: generate codes"
+  task :build => [:cleanse]
+
+  desc "js: generate cleanse title table"
+  task :cleanse do
+    infile  = File.join(File.dirname(__FILE__), "cleanse_title_patterns.txt")
+    outfile = File.join(File.dirname(__FILE__), "javascript", "lib", "bookmark_utility.js")
+
+    src = File.open(outfile, "rb") { |file| file.read }
+
+    code = ""
+    File.foreach(infile).map { |line|
+      line.chomp.split(/\t+/)
+    }.each { |host, pattern, replace|
+      pattern.sub!(/\\A/, "^")
+      pattern.sub!(/\\Z/, "$")
+      replace.sub!(/\\1/, "$1")
+      code += format(%|  "%s": [/%s/, "%s"],\n|, host, pattern, replace)
+    }
+
+    start_mark = "//<CleanseTitleTable>"
+    end_mark   = "//</CleanseTitleTable>"
+    src.sub!(/#{start_mark}.*#{end_mark}/m) { "#{start_mark}\n#{code.chomp}\n#{end_mark}" }
+
+    File.open(outfile, "wb") { |file| file.write(src) }
   end
 end
