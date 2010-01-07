@@ -14,16 +14,13 @@ BookmarkUtility.CleanseTitleTable = {
 };
 
 BookmarkUtility.cleanse_title = function(url, title) {
-  var host = (url.match(BookmarkUtility.HostPattern) || [])[1];
-  if ( host != null )
+  var host   = (url.match(BookmarkUtility.HostPattern) || [])[1];
+  var record = BookmarkUtility.CleanseTitleTable[host];
+  if ( record != null )
   {
-    var record = BookmarkUtility.CleanseTitleTable[host];
-    if ( record != null )
-    {
-      var pattern = record[0];
-      var replace = record[1];
-      title = title.replace(pattern, replace);
-    }
+    var pattern = record[0];
+    var replace = record[1];
+    title = title.replace(pattern, replace);
   }
   return title;
 };
