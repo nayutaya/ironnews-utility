@@ -23,5 +23,11 @@ var CleanseTitleCases = [
   ["http://www.tokyo-np.co.jp/article/chiba/20091115/CK2009111502000082.html","東京新聞:ボジョレ列車　１９日に特別運行　千葉モノレール:千葉(TOKYO Web)","ボジョレ列車　１９日に特別運行　千葉モノレール:千葉"],
   ["http://www.hokkaido-np.co.jp/news/aomori/202811.html","津軽鉄道のストーブ列車あすから運行−北海道新聞[青森からこんにちは]","津軽鉄道のストーブ列車あすから運行"],
   ["http://www.hokkaido-np.co.jp/news/aomori/202993.html","東北新幹線 全線開通まであと1年−北海道新聞[青森からこんにちは]","東北新幹線 全線開通まであと1年"],
+  ["http://japan.cnet.com/clip/global/story/0,3800097347,20404149,00.htm","グーグル、「Google Reader」にファビコン機能を追加:ニュースクリップ - CNET Japan","グーグル、「Google Reader」にファビコン機能を追加:ニュースクリップ"],
+  ["http://japan.cnet.com/clip/global/story/0,3800097347,20404336,00.htm","波力発電装置「Oyster」、スコットランド沖合で稼働開始:ニュースクリップ - CNET Japan","波力発電装置「Oyster」、スコットランド沖合で稼働開始:ニュースクリップ"],
+  ["http://gigazine.net/index.php?/news/comments/20091120_pdp_lcd/","液晶テレビよりも消費電力の低いプラズマテレビをパナソニックが発売へ - GIGAZINE","液晶テレビよりも消費電力の低いプラズマテレビをパナソニックが発売へ"],
+  ["http://gigazine.net/index.php?/news/comments/20091125_coma/","23年間植物状態と思われていた男性に実はずっと意識があったことが判明 - GIGAZINE","23年間植物状態と思われていた男性に実はずっと意識があったことが判明"],
+  ["http://www.kobe-np.co.jp/knews/0002541870.shtml","神戸新聞｜全国海外ニュース｜社会｜やり直し二審、痴漢を否定","全国海外ニュース｜社会｜やり直し二審、痴漢を否定"],
+  ["http://www.kobe-np.co.jp/news/jiken/0002492267.shtml","神戸新聞｜事件・事故｜ＪＲ塚口駅で車両に不具合　６本が運休","事件・事故｜ＪＲ塚口駅で車両に不具合　６本が運休"],
 //</CleanseTitleCases>
 ];

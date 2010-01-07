@@ -16,6 +16,9 @@ BookmarkUtility.CleanseTitleTable = {
   "slashdot.jp": [/^(.+) - スラッシュドット・ジャパン$/, "$1"],
   "www.tokyo-np.co.jp": [/^東京新聞:(.+)\(TOKYO Web\)$/, "$1"],
   "www.hokkaido-np.co.jp": [/^(.+)−北海道新聞\[青森からこんにちは\]$/, "$1"],
+  "japan.cnet.com": [/^(.+) - CNET Japan$/, "$1"],
+  "gigazine.net": [/^(.+) - GIGAZINE$/, "$1"],
+  "www.kobe-np.co.jp": [/^神戸新聞｜(.+)$/, "$1"],
 //</CleanseTitleTable>
   end: null
 };

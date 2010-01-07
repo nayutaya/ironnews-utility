@@ -12,5 +12,8 @@ module BookmarkUtility
     "slashdot.jp" => [%r'\A(.+) - スラッシュドット・ジャパン\Z', '\1'].freeze,
     "www.tokyo-np.co.jp" => [%r'\A東京新聞:(.+)\(TOKYO Web\)\Z', '\1'].freeze,
     "www.hokkaido-np.co.jp" => [%r'\A(.+)−北海道新聞\[青森からこんにちは\]\Z', '\1'].freeze,
+    "japan.cnet.com" => [%r'\A(.+) - CNET Japan\Z', '\1'].freeze,
+    "gigazine.net" => [%r'\A(.+) - GIGAZINE\Z', '\1'].freeze,
+    "www.kobe-np.co.jp" => [%r'\A神戸新聞｜(.+)\Z', '\1'].freeze,
   }.freeze
 end
