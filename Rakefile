@@ -153,7 +153,7 @@ namespace :js do
     }.each { |host, pattern, replace|
       pattern.sub!(/\\A/, "^")
       pattern.sub!(/\\Z/, "$")
-      replace.sub!(/\\1/, "$1")
+      replace.gsub!(/\\(\d)/) { "$#{$1}" }
       code += format(%|  "%s": [/%s/, "%s"],\n|, host, pattern, replace)
     }
 

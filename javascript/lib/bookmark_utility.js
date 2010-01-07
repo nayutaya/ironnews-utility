@@ -9,6 +9,9 @@ BookmarkUtility.CleanseTitleTable = {
   "sankei.jp.msn.com": [/^(.+) - MSN産経ニュース$/, "$1"],
   "www.asahi.com": [/^asahi\.com（朝日新聞社）：(.+)$/, "$1"],
   "www.yomiuri.co.jp": [/^(.+) : YOMIURI ONLINE（読売新聞）$/, "$1"],
+  "www.47news.jp": [/^(.+) - 47NEWS（よんななニュース）$/, "$1"],
+  "mytown.asahi.com": [/^asahi\.com:(.+)-マイタウン(.+)$/, "$1 - $2"],
+  "www.chunichi.co.jp": [/^中日新聞:(.+)\(CHUNICHI Web\)$/, "$1"],
 //</CleanseTitleTable>
   end: null
 };
