@@ -4,10 +4,12 @@ var BookmarkUtility = {};
 BookmarkUtility.HostPattern = /^http:\/\/(.+?)[\/:]/;
 
 BookmarkUtility.CleanseTitleTable = {
-  "mainichi.jp": [" - 毎日ｊｐ(毎日新聞)", ""],
-  "sankei.jp.msn.com": [" - MSN産経ニュース", ""],
-  "www.asahi.com": ["asahi.com（朝日新聞社）：", ""],
-  "www.yomiuri.co.jp": [" : YOMIURI ONLINE（読売新聞）", ""],
+//<CleanseTitleTable>
+  "mainichi.jp": [/^(.+) - 毎日ｊｐ\(毎日新聞\)$/, "$1"],
+  "sankei.jp.msn.com": [/^(.+) - MSN産経ニュース$/, "$1"],
+  "www.asahi.com": [/^asahi\.com（朝日新聞社）：(.+)$/, "$1"],
+  "www.yomiuri.co.jp": [/^(.+) : YOMIURI ONLINE（読売新聞）$/, "$1"],
+//</CleanseTitleTable>
   end: null
 };
 
