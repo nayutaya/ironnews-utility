@@ -19,13 +19,11 @@ module BookmarkUtility
 
   def self.cleanse_title(url, title)
     uri = URI.parse(url)
-    title = title.dup
-
     pattern, replace = CleanseTitleTable[uri.host]
     if pattern
-      title.gsub!(pattern, replace)
+      return title.gsub(pattern, replace)
+    else
+      return title
     end
-
-    return title
   end
 end
