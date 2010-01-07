@@ -137,10 +137,10 @@ namespace :python do
 end
 
 namespace :js do
-  desc "js: generate codes"
-  task :build => [:cleanse]
+  desc "[JS] generate codes"
+  task :build => [:cleanse, :cleanse_test]
 
-  desc "js: generate cleanse title table"
+  desc "[JS] generate cleanse title table"
   task :cleanse do
     infile  = File.join(File.dirname(__FILE__), "cleanse_title_patterns.txt")
     outfile = File.join(File.dirname(__FILE__), "javascript", "lib", "bookmark_utility.js")
@@ -159,6 +159,27 @@ namespace :js do
 
     start_mark = "//<CleanseTitleTable>"
     end_mark   = "//</CleanseTitleTable>"
+    src.sub!(/#{start_mark}.*#{end_mark}/m) { "#{start_mark}\n#{code.chomp}\n#{end_mark}" }
+
+    File.open(outfile, "wb") { |file| file.write(src) }
+  end
+
+  desc "[JS] generate cleanse title table test"
+  task :cleanse_test do
+    infile  = File.join(File.dirname(__FILE__), "cleanse_title_cases.txt")
+    outfile = File.join(File.dirname(__FILE__), "javascript", "test", "cleanse_title_cases.js")
+
+    src = File.open(outfile, "rb") { |file| file.read }
+
+    code = ""
+    File.foreach(infile).map { |line|
+      line.chomp.split(/\t+/)
+    }.each { |url, input, output|
+      code += format(%|  ["%s","%s","%s"],\n|, url, input, output)
+    }
+
+    start_mark = "//<CleanseTitleCases>"
+    end_mark   = "//</CleanseTitleCases>"
     src.sub!(/#{start_mark}.*#{end_mark}/m) { "#{start_mark}\n#{code.chomp}\n#{end_mark}" }
 
     File.open(outfile, "wb") { |file| file.write(src) }
