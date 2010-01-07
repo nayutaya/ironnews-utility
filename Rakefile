@@ -9,7 +9,7 @@ task :test => ["ruby:test", "python:test"]
 
 namespace :ruby do
   desc "generate codes of ruby version"
-  task :build => [:canonical, :filter]
+  task :build => [:canonical, :filter, :cleanse]
 
   desc "generate canonical table of ruby version"
   task :canonical do
@@ -49,6 +49,27 @@ namespace :ruby do
       }
 
       file.puts("  ].freeze")
+      file.puts("end")
+    }
+  end
+
+  desc "generate cleanse title table of ruby version"
+  task :cleanse do
+    infile  = File.join(File.dirname(__FILE__), "cleanse_title_patterns.txt")
+    outfile = File.join(File.dirname(__FILE__), "ruby", "lib", "bookmark_utility", "cleanse_title_table.rb")
+
+    File.open(outfile, "wb") { |file|
+      file.puts("")
+      file.puts("module BookmarkUtility")
+      file.puts("  CleanseTitleTable = {")
+
+      File.foreach(infile).map { |line|
+        line.chomp.split(/\t+/)
+      }.each { |host, pattern, replace|
+        file.printf(%|    "%s" => [%%r'%s', '%s'].freeze,\n|, host, pattern, replace)
+      }
+
+      file.puts("  }.freeze")
       file.puts("end")
     }
   end
