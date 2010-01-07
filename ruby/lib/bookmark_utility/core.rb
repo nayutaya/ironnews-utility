@@ -19,6 +19,8 @@ module BookmarkUtility
   def self.cleanse_title(url, title)
     title = title.dup
     title.gsub!(/ - 毎日ｊｐ\(毎日新聞\)\z/, "")
+    title.gsub!(/\Aasahi\.com（朝日新聞社）：/, "")
+    title.gsub!(/ : YOMIURI ONLINE（読売新聞）\z/, "")
     return title
   end
 end
