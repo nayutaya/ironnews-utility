@@ -1,4 +1,5 @@
 
+require "uri"
 require File.join(File.dirname(__FILE__), "canonical_table")
 require File.join(File.dirname(__FILE__), "filter_table")
 require File.join(File.dirname(__FILE__), "cleanse_title_table")
@@ -17,10 +18,11 @@ module BookmarkUtility
   end
 
   def self.cleanse_title(url, title)
+    uri = URI.parse(url)
     title = title.dup
-    title.gsub!(/ - 毎日ｊｐ\(毎日新聞\)\z/, "")
-    title.gsub!(/\Aasahi\.com（朝日新聞社）：/, "")
-    title.gsub!(/ : YOMIURI ONLINE（読売新聞）\z/, "")
+    title.gsub!(/ - 毎日ｊｐ\(毎日新聞\)\z/, "") if uri.host == "mainichi.jp"
+    title.gsub!(/\Aasahi\.com（朝日新聞社）：/, "") if uri.host == "www.asahi.com"
+    title.gsub!(/ : YOMIURI ONLINE（読売新聞）\z/, "") if uri.host == "www.yomiuri.co.jp"
     return title
   end
 end
