@@ -2,7 +2,7 @@
 task :default => [:build, :test]
 
 desc "generate codes"
-task :build => ["ruby:build", "python:build"]
+task :build => ["ruby:build", "python:build", "js:build"]
 
 desc "run tests (default task)"
 task :test => ["ruby:test", "python:test"]
@@ -133,5 +133,55 @@ namespace :python do
   task :test do
     target = File.join(File.dirname(__FILE__), "python", "test", "alltests.py")
     sh "python #{target}"
+  end
+end
+
+namespace :js do
+  desc "[JS] generate codes"
+  task :build => [:cleanse, :cleanse_test]
+
+  desc "[JS] generate cleanse title table"
+  task :cleanse do
+    infile  = File.join(File.dirname(__FILE__), "cleanse_title_patterns.txt")
+    outfile = File.join(File.dirname(__FILE__), "javascript", "lib", "bookmark_utility.js")
+
+    src = File.open(outfile, "rb") { |file| file.read }
+
+    code = ""
+    File.foreach(infile).map { |line|
+      line.chomp.split(/\t+/)
+    }.each { |host, pattern, replace|
+      pattern.sub!(/\\A/, "^")
+      pattern.sub!(/\\Z/, "$")
+      replace.sub!(/\\1/, "$1")
+      code += format(%|  "%s": [/%s/, "%s"],\n|, host, pattern, replace)
+    }
+
+    start_mark = "//<CleanseTitleTable>"
+    end_mark   = "//</CleanseTitleTable>"
+    src.sub!(/#{start_mark}.*#{end_mark}/m) { "#{start_mark}\n#{code.chomp}\n#{end_mark}" }
+
+    File.open(outfile, "wb") { |file| file.write(src) }
+  end
+
+  desc "[JS] generate cleanse title table test"
+  task :cleanse_test do
+    infile  = File.join(File.dirname(__FILE__), "cleanse_title_cases.txt")
+    outfile = File.join(File.dirname(__FILE__), "javascript", "test", "cleanse_title_cases.js")
+
+    src = File.open(outfile, "rb") { |file| file.read }
+
+    code = ""
+    File.foreach(infile).map { |line|
+      line.chomp.split(/\t+/)
+    }.each { |url, input, output|
+      code += format(%|  ["%s","%s","%s"],\n|, url, input, output)
+    }
+
+    start_mark = "//<CleanseTitleCases>"
+    end_mark   = "//</CleanseTitleCases>"
+    src.sub!(/#{start_mark}.*#{end_mark}/m) { "#{start_mark}\n#{code.chomp}\n#{end_mark}" }
+
+    File.open(outfile, "wb") { |file| file.write(src) }
   end
 end
