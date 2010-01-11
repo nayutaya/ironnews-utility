@@ -38,4 +38,7 @@ FilterTable = (
   re.compile(r'\Ahttp://www\.usfl\.com/Daily/News/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://www\.wbs\.co\.jp/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://www\.xinhua\.jp/'), # 理由: 記事の閲覧が有料であるため
+  re.compile(r'\Ahttp://www\.tku\.co\.jp/pc/news/'), # 理由: title要素に記事名が含まれていないため
+  re.compile(r'\Ahttp://www\.mbs\.jp/news/'), # 理由: 記事の閲覧可能期間が短いため
+  re.compile(r'\Ahttp://news\.tbs\.co\.jp/newseye/'), # 理由: 記事の閲覧可能期間が短いため
 )
