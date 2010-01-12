@@ -143,7 +143,7 @@ namespace :js do
   desc "[JS] generate cleanse title table"
   task :cleanse do
     infile  = File.join(File.dirname(__FILE__), "cleanse_title_patterns.txt")
-    outfile = File.join(File.dirname(__FILE__), "javascript", "lib", "bookmark_utility.js")
+    outfile = File.join(File.dirname(__FILE__), "javascript", "lib", "ironnews_utility.js")
 
     src = File.open(outfile, "rb") { |file| file.read }
 
