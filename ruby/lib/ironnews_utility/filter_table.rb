@@ -1,5 +1,5 @@
 
-module BookmarkUtility
+module IronnewsUtility
   FilterTable = [
     %r'\Ahttp://cambodiawatch\.net/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://car\.nikkei\.co\.jp/news/', # 理由: title要素に記事名が含まれていないため

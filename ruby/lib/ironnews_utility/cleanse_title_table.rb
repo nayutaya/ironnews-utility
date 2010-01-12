@@ -1,5 +1,5 @@
 
-module BookmarkUtility
+module IronnewsUtility
   CleanseTitleTable = {
     "mainichi.jp" => [%r'\A(.+) - 毎日ｊｐ\(毎日新聞\)\Z', '\1'].freeze,
     "mytown.asahi.com" => [%r'\Aasahi\.com:(.+)-マイタウン(.+)\Z', '\1 - \2'].freeze,

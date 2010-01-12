@@ -3,11 +3,11 @@
 $:.unshift(File.join(File.dirname(__FILE__), "..", "lib"))
 
 require "test/unit"
-require "bookmark_utility"
+require "ironnews_utility"
 
 class FilterTest < Test::Unit::TestCase
   def setup
-    @module = BookmarkUtility
+    @module = IronnewsUtility
   end
 
   def test_reject__ok
