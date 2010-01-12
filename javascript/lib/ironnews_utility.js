@@ -1,9 +1,9 @@
 
-var BookmarkUtility = {};
+var IronnewsUtility = {};
 
-BookmarkUtility.HostPattern = /^http:\/\/(.+?)[\/:]/;
+IronnewsUtility.HostPattern = /^http:\/\/(.+?)[\/:]/;
 
-BookmarkUtility.CleanseTitleTable = {
+IronnewsUtility.CleanseTitleTable = {
 //<CleanseTitleTable>
   "mainichi.jp": [/^(.+) - 毎日ｊｐ\(毎日新聞\)$/, "$1"],
   "mytown.asahi.com": [/^asahi\.com:(.+)-マイタウン(.+)$/, "$1 - $2"],
@@ -23,9 +23,9 @@ BookmarkUtility.CleanseTitleTable = {
   end: null
 };
 
-BookmarkUtility.cleanse_title = function(url, title) {
-  var host   = (url.match(BookmarkUtility.HostPattern) || [])[1];
-  var record = BookmarkUtility.CleanseTitleTable[host];
+IronnewsUtility.cleanse_title = function(url, title) {
+  var host   = (url.match(IronnewsUtility.HostPattern) || [])[1];
+  var record = IronnewsUtility.CleanseTitleTable[host];
   if ( record != null )
   {
     var pattern = record[0];
