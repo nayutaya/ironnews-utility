@@ -6,7 +6,7 @@
   <meta http-equiv="Content-Script-Type" content="text/javascript" />
   <title>ironnews</title>
   <script type="text/javascript" src="jquery-1.3.2.min.js"></script>
-  <script type="text/javascript" src="../lib/bookmark_utility.js"></script>
+  <script type="text/javascript" src="../lib/ironnews_utility.js"></script>
   <script type="text/javascript" src="cleanse_title_cases.js"></script>
  </head>
  <body>
@@ -29,7 +29,7 @@
       var input  = this[1];
       var output = this[2];
 
-      var expected = BookmarkUtility.cleanse_title(url, input);
+      var expected = IronnewsUtility.cleanse_title(url, input);
       var valid    = (expected == output);
 
       var row1 = $("<tr/>");

@@ -6,7 +6,7 @@ import os
 import sys
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", "lib"))
-from bookmark_utility import BookmarkUtility
+from ironnews_utility import IronnewsUtility
 
 class TestFilter(unittest.TestCase):
   def setUp(self):
@@ -18,7 +18,7 @@ class TestFilter(unittest.TestCase):
       url = line.strip()
       self.assertEqual(
         (url, False),
-        (url, BookmarkUtility.reject(url)))
+        (url, IronnewsUtility.reject(url)))
     file.close()
 
   def test_reject__ng(self):
@@ -27,7 +27,7 @@ class TestFilter(unittest.TestCase):
       url = line.strip()
       self.assertEqual(
         (url, True),
-        (url, BookmarkUtility.reject(url)))
+        (url, IronnewsUtility.reject(url)))
     file.close()
 
 if __name__ == "__main__":

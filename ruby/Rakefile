@@ -1,17 +1,17 @@
 
-NAME = "nayutaya-bookmark-utility"
+NAME = "nayutaya-ironnews-utility"
 
 task :default => :gemspec
 
 desc "generate gemspec file from template"
 task :gemspec do
   require "erb"
-  require "lib/bookmark_utility"
+  require "lib/ironnews_utility"
 
   src  = File.open("#{NAME}.gemspec.erb", "rb") { |file| file.read }
   erb  = ERB.new(src, nil, "-")
 
-  version = BookmarkUtility::VERSION
+  version = IronnewsUtility::VERSION
   date    = Time.now.strftime("%Y-%m-%d")
 
   files      = Dir.glob("**/*").select { |s| File.file?(s) }.reject { |s| /\.gem\z/ =~ s }
@@ -28,7 +28,7 @@ task :build do
 end
 
 task :push do
-  require "lib/bookmark_utility"
-  target = "#{NAME}-#{BookmarkUtility::VERSION}.gem"
+  require "lib/ironnews_utility"
+  target = "#{NAME}-#{IronnewsUtility::VERSION}.gem"
   sh "gem push #{target}"
 end

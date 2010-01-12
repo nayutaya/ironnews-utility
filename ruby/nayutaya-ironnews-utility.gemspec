@@ -4,30 +4,30 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0")
   s.required_ruby_version     = Gem::Requirement.new(">= 1.8.6")
 
-  s.name    = "nayutaya-bookmark-utility"
+  s.name    = "nayutaya-ironnews-utility"
   s.version = "0.2.2"
-  s.date    = "2010-01-11"
+  s.date    = "2010-01-12"
 
   s.authors = ["Yuya Kato"]
   s.email   = "yuyakato@gmail.com"
 
-  s.summary     = "bookmark-utility"
-  s.description = "bookmark-utility"
-  s.homepage    = "http://github.com/nayutaya/bookmark-utility/"
+  s.summary     = "ironnews-utility"
+  s.description = "ironnews-utility"
+  s.homepage    = "http://github.com/nayutaya/ironnews-utility/"
 
   s.rubyforge_project = nil
   s.has_rdoc          = false
   s.require_paths     = ["lib"]
 
   s.files = [
-    "lib/bookmark_utility/canonical_table.rb",
-    "lib/bookmark_utility/cleanse_title_table.rb",
-    "lib/bookmark_utility/core.rb",
-    "lib/bookmark_utility/filter_table.rb",
-    "lib/bookmark_utility/version.rb",
-    "lib/bookmark_utility.rb",
-    "nayutaya-bookmark-utility.gemspec",
-    "nayutaya-bookmark-utility.gemspec.erb",
+    "lib/ironnews_utility/canonical_table.rb",
+    "lib/ironnews_utility/cleanse_title_table.rb",
+    "lib/ironnews_utility/core.rb",
+    "lib/ironnews_utility/filter_table.rb",
+    "lib/ironnews_utility/version.rb",
+    "lib/ironnews_utility.rb",
+    "nayutaya-ironnews-utility.gemspec",
+    "nayutaya-ironnews-utility.gemspec.erb",
     "Rakefile",
     "test/alltests.rb",
     "test/canonical_test.rb",

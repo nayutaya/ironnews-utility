@@ -14,11 +14,11 @@ namespace :ruby do
   desc "generate canonical table of ruby version"
   task :canonical do
     infile  = File.join(File.dirname(__FILE__), "canonical_patterns.txt")
-    outfile = File.join(File.dirname(__FILE__), "ruby", "lib", "bookmark_utility", "canonical_table.rb")
+    outfile = File.join(File.dirname(__FILE__), "ruby", "lib", "ironnews_utility", "canonical_table.rb")
 
     File.open(outfile, "wb") { |file|
       file.puts("")
-      file.puts("module BookmarkUtility")
+      file.puts("module IronnewsUtility")
       file.puts("  CanonicalTable = [")
 
       File.foreach(infile).map { |line|
@@ -35,11 +35,11 @@ namespace :ruby do
   desc "generate filter table of ruby version"
   task :filter do
     infile  = File.join(File.dirname(__FILE__), "filter_patterns.txt")
-    outfile = File.join(File.dirname(__FILE__), "ruby", "lib", "bookmark_utility", "filter_table.rb")
+    outfile = File.join(File.dirname(__FILE__), "ruby", "lib", "ironnews_utility", "filter_table.rb")
 
     File.open(outfile, "wb") { |file|
       file.puts("")
-      file.puts("module BookmarkUtility")
+      file.puts("module IronnewsUtility")
       file.puts("  FilterTable = [")
 
       File.foreach(infile).map { |line|
@@ -56,11 +56,11 @@ namespace :ruby do
   desc "generate cleanse title table of ruby version"
   task :cleanse do
     infile  = File.join(File.dirname(__FILE__), "cleanse_title_patterns.txt")
-    outfile = File.join(File.dirname(__FILE__), "ruby", "lib", "bookmark_utility", "cleanse_title_table.rb")
+    outfile = File.join(File.dirname(__FILE__), "ruby", "lib", "ironnews_utility", "cleanse_title_table.rb")
 
     File.open(outfile, "wb") { |file|
       file.puts("")
-      file.puts("module BookmarkUtility")
+      file.puts("module IronnewsUtility")
       file.puts("  CleanseTitleTable = {")
 
       File.foreach(infile).map { |line|
@@ -88,7 +88,7 @@ namespace :python do
   desc "generate canonical table of python version"
   task :canonical do
     infile  = File.join(File.dirname(__FILE__), "canonical_patterns.txt")
-    outfile = File.join(File.dirname(__FILE__), "python", "lib", "bookmark_utility", "canonical_table.py")
+    outfile = File.join(File.dirname(__FILE__), "python", "lib", "ironnews_utility", "canonical_table.py")
 
     File.open(outfile, "wb") { |file|
       file.puts("# -*- coding: utf-8 -*-")
@@ -110,7 +110,7 @@ namespace :python do
   desc "generate filter table of python version"
   task :filter do
     infile  = File.join(File.dirname(__FILE__), "filter_patterns.txt")
-    outfile = File.join(File.dirname(__FILE__), "python", "lib", "bookmark_utility", "filter_table.py")
+    outfile = File.join(File.dirname(__FILE__), "python", "lib", "ironnews_utility", "filter_table.py")
 
     File.open(outfile, "wb") { |file|
       file.puts("# -*- coding: utf-8 -*-")
@@ -143,7 +143,7 @@ namespace :js do
   desc "[JS] generate cleanse title table"
   task :cleanse do
     infile  = File.join(File.dirname(__FILE__), "cleanse_title_patterns.txt")
-    outfile = File.join(File.dirname(__FILE__), "javascript", "lib", "bookmark_utility.js")
+    outfile = File.join(File.dirname(__FILE__), "javascript", "lib", "ironnews_utility.js")
 
     src = File.open(outfile, "rb") { |file| file.read }
 

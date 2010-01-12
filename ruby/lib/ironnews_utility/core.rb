@@ -4,7 +4,7 @@ require File.join(File.dirname(__FILE__), "canonical_table")
 require File.join(File.dirname(__FILE__), "filter_table")
 require File.join(File.dirname(__FILE__), "cleanse_title_table")
 
-module BookmarkUtility
+module IronnewsUtility
   def self.get_canonical_url(url)
     url = url.dup
     CanonicalTable.find { |pattern, replace|
