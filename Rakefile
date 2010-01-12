@@ -88,7 +88,7 @@ namespace :python do
   desc "generate canonical table of python version"
   task :canonical do
     infile  = File.join(File.dirname(__FILE__), "canonical_patterns.txt")
-    outfile = File.join(File.dirname(__FILE__), "python", "lib", "bookmark_utility", "canonical_table.py")
+    outfile = File.join(File.dirname(__FILE__), "python", "lib", "ironnews_utility", "canonical_table.py")
 
     File.open(outfile, "wb") { |file|
       file.puts("# -*- coding: utf-8 -*-")
@@ -110,7 +110,7 @@ namespace :python do
   desc "generate filter table of python version"
   task :filter do
     infile  = File.join(File.dirname(__FILE__), "filter_patterns.txt")
-    outfile = File.join(File.dirname(__FILE__), "python", "lib", "bookmark_utility", "filter_table.py")
+    outfile = File.join(File.dirname(__FILE__), "python", "lib", "ironnews_utility", "filter_table.py")
 
     File.open(outfile, "wb") { |file|
       file.puts("# -*- coding: utf-8 -*-")
