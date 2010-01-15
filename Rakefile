@@ -4,7 +4,7 @@ task :default => [:build, :test]
 desc "generate codes"
 task :build => ["ruby:build", "python:build", "js:build"]
 
-desc "run tests (default task)"
+desc "run tests"
 task :test => ["ruby:test", "python:test"]
 
 namespace :ruby do
@@ -208,8 +208,11 @@ namespace :js do
 end
 
 namespace :sort do
+  desc "sort all"
+  task :all => [:cleanse_patterns, :cleanse_cases]
+
   desc "sort cleanse title patterns"
-  task :cleanse do
+  task :cleanse_patterns do
     filename = File.join(File.dirname(__FILE__), "cleanse_title_patterns.txt")
 
     table = {}
@@ -227,6 +230,23 @@ namespace :sort do
         patterns.each { |pattern, replace|
           file.puts([host, pattern, replace].join("\t"))
         }
+      }
+    }
+  end
+
+  desc "sort cleanse title cases"
+  task :cleanse_cases do
+    filename = File.join(File.dirname(__FILE__), "cleanse_title_cases.txt")
+
+    list = File.foreach(filename).map { |line|
+      line.chomp.split(/\t+/)
+    }.sort_by { |url, titile|
+      url
+    }
+
+    File.open(filename, "wb") { |file|
+      list.each { |url, title|
+        file.puts([url, title].join("\t"))
       }
     }
   end
