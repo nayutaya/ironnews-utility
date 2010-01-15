@@ -240,13 +240,13 @@ namespace :sort do
 
     list = File.foreach(filename).map { |line|
       line.chomp.split(/\t+/)
-    }.sort_by { |url, titile|
-      url
+    }.sort_by { |a|
+      a.first
     }
 
     File.open(filename, "wb") { |file|
-      list.each { |url, title|
-        file.puts([url, title].join("\t"))
+      list.each { |a|
+        file.puts(a.join("\t"))
       }
     }
   end
