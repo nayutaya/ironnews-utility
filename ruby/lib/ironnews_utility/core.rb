@@ -18,12 +18,14 @@ module IronnewsUtility
   end
 
   def self.cleanse_title(url, title)
-    uri = URI.parse(url)
-    pattern, replace = CleanseTitleTable[uri.host]
-    if pattern
-      return title.gsub(pattern, replace)
-    else
-      return title
-    end
+    uri   = URI.parse(url)
+    title = title.dup
+
+    patterns = CleanseTitleTable[uri.host] || []
+    patterns.each { |pattern, replace|
+      title.gsub!(pattern, replace)
+    }
+
+    return title
   end
 end

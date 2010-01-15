@@ -58,15 +58,25 @@ namespace :ruby do
     infile  = File.join(File.dirname(__FILE__), "cleanse_title_patterns.txt")
     outfile = File.join(File.dirname(__FILE__), "ruby", "lib", "ironnews_utility", "cleanse_title_table.rb")
 
+    table = {}
+    File.foreach(infile).map { |line|
+      line.chomp.split(/\t+/)
+    }.each { |host, pattern, replace|
+      table[host] ||= []
+      table[host] << [pattern, replace]
+    }
+
     File.open(outfile, "wb") { |file|
       file.puts("")
       file.puts("module IronnewsUtility")
       file.puts("  CleanseTitleTable = {")
 
-      File.foreach(infile).map { |line|
-        line.chomp.split(/\t+/)
-      }.each { |host, pattern, replace|
-        file.printf(%|    "%s" => [%%r'%s', '%s'].freeze,\n|, host, pattern, replace)
+      table.to_a.sort_by { |k, v| k }.each { |host, patterns|
+        file.printf(%|    "%s" => [\n|, host)
+        patterns.each { |pattern, replace|
+          file.printf(%|      [%%r'%s', '%s'].freeze,\n|, pattern, replace)
+        }
+        file.printf(%|    ].freeze,\n|)
       }
 
       file.puts("  }.freeze")

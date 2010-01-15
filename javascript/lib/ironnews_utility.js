@@ -19,6 +19,7 @@ IronnewsUtility.CleanseTitleTable = {
   "japan.cnet.com": [/^(.+) - CNET Japan$/, "$1"],
   "gigazine.net": [/^(.+) - GIGAZINE$/, "$1"],
   "www.kobe-np.co.jp": [/^神戸新聞｜(.+)$/, "$1"],
+  "www.kobe-np.co.jp": [/^全国海外ニュース｜(.+)$/, "$1"],
 //</CleanseTitleTable>
   end: null
 };

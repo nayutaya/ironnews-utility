@@ -12,3 +12,4 @@ www.hokkaido-np.co.jp	\A(.+)−北海道新聞\[青森からこんにちは\]\Z	
 japan.cnet.com		\A(.+) - CNET Japan\Z	\1
 gigazine.net		\A(.+) - GIGAZINE\Z	\1
 www.kobe-np.co.jp	\A神戸新聞｜(.+)\Z	\1
+www.kobe-np.co.jp	\A全国海外ニュース｜(.+)\Z	\1
