@@ -96,6 +96,21 @@ module IronnewsUtility
     "www.kyoto-np.co.jp" => [
       [%r'\A(.+)：京都新聞\Z', '\1'].freeze,
     ].freeze,
+    "www.mutusinpou.co.jp" => [
+      [%r'\A(.+) by 陸奥新報\Z', '\1'].freeze,
+    ].freeze,
+    "www.nagasaki-np.co.jp" => [
+      [%r'\A龍〜なが　長崎新聞ホームページ：(.+)\Z', '\1'].freeze,
+    ].freeze,
+    "www.nhk.or.jp" => [
+      [%r'\ANHKニュース　(.+)\Z', '\1'].freeze,
+    ].freeze,
+    "www.nishinippon.co.jp" => [
+      [%r'\A(.+) / 西日本新聞\Z', '\1'].freeze,
+    ].freeze,
+    "www.tetsudo.com" => [
+      [%r'\A(.+) - 鉄道コム\Z', '\1'].freeze,
+    ].freeze,
     "www.tokyo-np.co.jp" => [
       [%r'\A東京新聞:(.+)\(TOKYO Web\)\Z', '\1'].freeze,
     ].freeze,

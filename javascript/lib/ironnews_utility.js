@@ -33,6 +33,11 @@ IronnewsUtility.CleanseTitleTable = {
   "www.kahoku.co.jp": [[/^河北新報　東北のニュース／(.+)$/, "$1"],[/^河北新報 (.+)$/, "$1"]],
   "www.kobe-np.co.jp": [[/^神戸新聞｜(.+)$/, "$1"],[/^全国海外ニュース｜(.+)$/, "$1"],[/^事件・事故｜(.+)$/, "$1"]],
   "www.kyoto-np.co.jp": [[/^(.+)：京都新聞$/, "$1"]],
+  "www.mutusinpou.co.jp": [[/^(.+) by 陸奥新報$/, "$1"]],
+  "www.nagasaki-np.co.jp": [[/^龍〜なが　長崎新聞ホームページ：(.+)$/, "$1"]],
+  "www.nhk.or.jp": [[/^NHKニュース　(.+)$/, "$1"]],
+  "www.nishinippon.co.jp": [[/^(.+) \/ 西日本新聞$/, "$1"]],
+  "www.tetsudo.com": [[/^(.+) - 鉄道コム$/, "$1"]],
   "www.tokyo-np.co.jp": [[/^東京新聞:(.+)\(TOKYO Web\)$/, "$1"]],
   "www.yomiuri.co.jp": [[/^(.+) : YOMIURI ONLINE（読売新聞）$/, "$1"]],
 //</CleanseTitleTable>
