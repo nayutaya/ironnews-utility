@@ -3,6 +3,21 @@ NAME = "nayutaya-ironnews-utility"
 
 task :default => :gemspec
 
+task :version do
+  require "lib/ironnews_utility/version"
+  cur_version  = IronnewsUtility::VERSION
+  next_version = cur_version.succ
+  puts("#{cur_version} -> #{next_version}")
+
+  filename = File.join(File.dirname(__FILE__), "lib", "ironnews_utility", "version.rb")
+  File.open(filename, "wb") { |file|
+    file.puts
+    file.puts(%|module IronnewsUtility|)
+    file.puts(%|  VERSION = "#{next_version}"|)
+    file.puts(%|end|)
+  }
+end
+
 desc "generate gemspec file from template"
 task :gemspec do
   require "erb"
