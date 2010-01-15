@@ -171,6 +171,7 @@ namespace :js do
       code += patterns.map { |pattern, replace|
         pattern.sub!(/\\A/, "^")
         pattern.sub!(/\\Z/, "$")
+        pattern.sub!(/\//, "\\/")
         replace.gsub!(/\\(\d)/) { "$#{$1}" }
         format(%|[/%s/, "%s"]|, pattern, replace)
       }.join(",")
