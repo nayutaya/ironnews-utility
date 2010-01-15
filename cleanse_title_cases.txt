@@ -43,3 +43,17 @@ http://osaka.yomiuri.co.jp/ekiben/eb100106a.htm	いなり寿し（ＪＲ・伊�
 http://response.jp/article/2009/11/18/132670.html	JR東海博物館に太陽光発電 | レスポンス自動車ニュース（Response.jp）	JR東海博物館に太陽光発電
 http://response.jp/article/2009/11/25/132942.html	西武鉄道、開かずの踏み切り一部解消 | レスポンス自動車ニュース（Response.jp）	西武鉄道、開かずの踏み切り一部解消
 http://sankei.jp.msn.com/affairs/disaster/091207/dst0912072233007-n1.htm	ＪＲ西漏洩問題検証チーム初会合　遺族ら「報告書書き換えるつもりで」　  (1/2ページ) - MSN産経ニュース	ＪＲ西漏洩問題検証チーム初会合　遺族ら「報告書書き換えるつもりで」　
+http://svr.sanyo.oni.co.jp/news_k/news/d/2009111701000945/	ＪＲ西、国交相に１８日改善報告　脱線事故報告書漏えい - 山陽新聞地域ニュース	ＪＲ西、国交相に１８日改善報告　脱線事故報告書漏えい
+http://svr.sanyo.oni.co.jp/news_s/news/d/2009112912241092/	片上鉄道跡１５キロを散策　健康ウオークに５００人参加 - 山陽新聞地域ニュース	片上鉄道跡１５キロを散策　健康ウオークに５００人参加
+http://techon.nikkeibp.co.jp/article/COLUMN/20091207/178343/	日本の鉄道技術を世界に売り込むために - 産業動向 - Tech-On！	日本の鉄道技術を世界に売り込むために - 産業動向
+http://techon.nikkeibp.co.jp/article/FEATURE/20091113/177607/	第3回：「改札機」と「入退出」，両面作戦に挑む（上） - 電子部品 - Tech-On！	第3回：「改札機」と「入退出」，両面作戦に挑む（上） - 電子部品
+http://www.47news.jp/movie/general/post_3601/	ＪＲ西日本、報告書を提出 : 動画 - 47NEWS (よんななニュース)	ＪＲ西日本、報告書を提出 : 動画
+http://www.47news.jp/movie/general/post_3735/	「これでは犬死に」 : 動画 - 47NEWS (よんななニュース)	「これでは犬死に」 : 動画
+http://www.afpbb.com/article/disaster-accidents-crime/disaster/2678965/5113417	濃霧で列車事故3件、10人死亡 インド北部　写真5枚　国際ニュース : AFPBB News	濃霧で列車事故3件、10人死亡 インド北部　写真5枚
+http://www.afpbb.com/article/economy/2668058/4962552	韓国鉄道公社、1万6000人がスト突入　写真5枚　国際ニュース : AFPBB News	韓国鉄道公社、1万6000人がスト突入　写真5枚
+http://www.asahi.com/international/jinmin/TKY200911190280.html	asahi.com：中米　新型高速列車・内燃機関めぐり協力覚書調印 - 人民日報 - 国際	中米　新型高速列車・内燃機関めぐり協力覚書調印 - 人民日報 - 国際
+http://www.asahi.com/international/jinmin/TKY200912020321.html	asahi.com：中国の次世代高速列車、風洞試験を実施 - 人民日報 - 国際	中国の次世代高速列車、風洞試験を実施 - 人民日報 - 国際
+http://www.asahi.com/kids/kotoba/TKY200912290153.html	アサヒ・コムきっず：フリーゲージトレインとは？ - ことばなるほどね！ - 学ぼう	アサヒ・コムきっず：フリーゲージトレインとは？
+http://www.asahi.com/kids/news/TKY200911240322.html	アサヒ・コムきっず：年末年始、鉄道の旅がお得に - 最新ニュース - 読もう	アサヒ・コムきっず：年末年始、鉄道の旅がお得に
+http://www.asahi.com/travel/rail/gallery/091215ctrl/	asahi.com （朝日新聞社）：日立の高速列車、英国で発車 - 鉄道 - トラベル	日立の高速列車、英国で発車 - 鉄道 - トラベル
+http://www.asahi.com/travel/rail/gallery/100112chinasl/	asahi.com （朝日新聞社）：中国・内蒙古のＳＬ - トラベル	中国・内蒙古のＳＬ - トラベル

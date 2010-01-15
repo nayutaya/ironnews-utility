@@ -38,16 +38,30 @@ module IronnewsUtility
     ].freeze,
     "sankei.jp.msn.com" => [
       [%r'\A(.+) - MSN産経ニュース\Z', '\1'].freeze,
-      [%r'\A(.+?) *\(\d+/\d+ページ\)\Z', '\1'].freeze,
+      [%r'\A(.+)  \(\d+/\d+ページ\)\Z', '\1'].freeze,
     ].freeze,
     "slashdot.jp" => [
       [%r'\A(.+) - スラッシュドット・ジャパン\Z', '\1'].freeze,
     ].freeze,
+    "svr.sanyo.oni.co.jp" => [
+      [%r'\A(.+) - 山陽新聞地域ニュース\Z', '\1'].freeze,
+    ].freeze,
+    "techon.nikkeibp.co.jp" => [
+      [%r'\A(.+) - Tech-On！\Z', '\1'].freeze,
+    ].freeze,
     "www.47news.jp" => [
       [%r'\A(.+) - 47NEWS（よんななニュース）\Z', '\1'].freeze,
+      [%r'\A(.+) - 47NEWS \(よんななニュース\)\Z', '\1'].freeze,
+    ].freeze,
+    "www.afpbb.com" => [
+      [%r'\A(.+)　国際ニュース : AFPBB News\Z', '\1'].freeze,
     ].freeze,
     "www.asahi.com" => [
       [%r'\Aasahi\.com（朝日新聞社）：(.+)\Z', '\1'].freeze,
+      [%r'\Aasahi\.com：(.+)\Z', '\1'].freeze,
+      [%r'\A(.+) - ことばなるほどね！ - 学ぼう\Z', '\1'].freeze,
+      [%r'\A(.+) - 最新ニュース - 読もう\Z', '\1'].freeze,
+      [%r'\Aasahi\.com （朝日新聞社）：(.+)\Z', '\1'].freeze,
     ].freeze,
     "www.chunichi.co.jp" => [
       [%r'\A中日新聞:(.+)\(CHUNICHI Web\)\Z', '\1'].freeze,
