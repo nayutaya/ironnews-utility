@@ -6,16 +6,23 @@ www.asahi.com	\A(.+) - ことばなるほどね！ - 学ぼう\Z	\1
 www.asahi.com	\A(.+) - 最新ニュース - 読もう\Z	\1
 www.asahi.com	\Aasahi\.com （朝日新聞社）：(.+)\Z	\1
 japan.cnet.com	\A(.+) - CNET Japan\Z	\1
+www.fnn-news.com	\AFNNニュース: (.+)\Z	\1
 www.jiji.com	\A時事ドットコム：(.+)\Z	\1
 sankei.jp.msn.com	\A(.+) - MSN産経ニュース\Z	\1
 sankei.jp.msn.com	\A(.+)  \(\d+/\d+ページ\)\Z	\1
 www.47news.jp	\A(.+) - 47NEWS（よんななニュース）\Z	\1
 www.47news.jp	\A(.+) - 47NEWS \(よんななニュース\)\Z	\1
+www.business-i.jp	\A(.+) - FujiSankei Business i\.／Bloomberg GLOBAL FINANCE\Z	\1
+www.chugoku-np.co.jp	\A(.+) - 中国新聞\Z	\1
 www.chunichi.co.jp	\A中日新聞:(.+)\(CHUNICHI Web\)\Z	\1
-www.hokkaido-np.co.jp	\A(.+)−北海道新聞\[青森からこんにちは\]\Z	\1
+www.cnn.co.jp	\ACNN\.co\.jp：(.+)\Z	\1
+www.hokkaido-np.co.jp	\A(.+)−北海道新聞\[.+\]\Z	\1
+www.kahoku.co.jp	\A河北新報　東北のニュース／(.+)\Z	\1
+www.kahoku.co.jp	\A河北新報 (.+)\Z	\1
 www.kobe-np.co.jp	\A神戸新聞｜(.+)\Z	\1
 www.kobe-np.co.jp	\A全国海外ニュース｜(.+)\Z	\1
 www.kobe-np.co.jp	\A事件・事故｜(.+)\Z	\1
+www.kyoto-np.co.jp	\A(.+)：京都新聞\Z	\1
 journal.mycom.co.jp	\A(.+) \| マイコミジャーナル\Z	\1
 techon.nikkeibp.co.jp	\A(.+) - Tech-On！\Z	\1
 svr.sanyo.oni.co.jp	\A(.+) - 山陽新聞地域ニュース\Z	\1

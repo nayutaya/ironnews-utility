@@ -63,19 +63,38 @@ module IronnewsUtility
       [%r'\A(.+) - 最新ニュース - 読もう\Z', '\1'].freeze,
       [%r'\Aasahi\.com （朝日新聞社）：(.+)\Z', '\1'].freeze,
     ].freeze,
+    "www.business-i.jp" => [
+      [%r'\A(.+) - FujiSankei Business i\.／Bloomberg GLOBAL FINANCE\Z', '\1'].freeze,
+    ].freeze,
+    "www.chugoku-np.co.jp" => [
+      [%r'\A(.+) - 中国新聞\Z', '\1'].freeze,
+    ].freeze,
     "www.chunichi.co.jp" => [
       [%r'\A中日新聞:(.+)\(CHUNICHI Web\)\Z', '\1'].freeze,
     ].freeze,
+    "www.cnn.co.jp" => [
+      [%r'\ACNN\.co\.jp：(.+)\Z', '\1'].freeze,
+    ].freeze,
+    "www.fnn-news.com" => [
+      [%r'\AFNNニュース: (.+)\Z', '\1'].freeze,
+    ].freeze,
     "www.hokkaido-np.co.jp" => [
-      [%r'\A(.+)−北海道新聞\[青森からこんにちは\]\Z', '\1'].freeze,
+      [%r'\A(.+)−北海道新聞\[.+\]\Z', '\1'].freeze,
     ].freeze,
     "www.jiji.com" => [
       [%r'\A時事ドットコム：(.+)\Z', '\1'].freeze,
+    ].freeze,
+    "www.kahoku.co.jp" => [
+      [%r'\A河北新報　東北のニュース／(.+)\Z', '\1'].freeze,
+      [%r'\A河北新報 (.+)\Z', '\1'].freeze,
     ].freeze,
     "www.kobe-np.co.jp" => [
       [%r'\A神戸新聞｜(.+)\Z', '\1'].freeze,
       [%r'\A全国海外ニュース｜(.+)\Z', '\1'].freeze,
       [%r'\A事件・事故｜(.+)\Z', '\1'].freeze,
+    ].freeze,
+    "www.kyoto-np.co.jp" => [
+      [%r'\A(.+)：京都新聞\Z', '\1'].freeze,
     ].freeze,
     "www.tokyo-np.co.jp" => [
       [%r'\A東京新聞:(.+)\(TOKYO Web\)\Z', '\1'].freeze,

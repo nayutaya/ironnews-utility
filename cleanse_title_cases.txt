@@ -45,14 +45,28 @@ http://www.asahi.com/kids/news/TKY200911240322.html	アサヒ・コムきっず�
 http://www.asahi.com/national/update/0105/TKY201001050398.html	asahi.com（朝日新聞社）：ＪＲ東など５社ＨＰに新型ウイルス　閲覧者も感染の恐れ - 社会	ＪＲ東など５社ＨＰに新型ウイルス　閲覧者も感染の恐れ - 社会
 http://www.asahi.com/travel/rail/gallery/091215ctrl/	asahi.com （朝日新聞社）：日立の高速列車、英国で発車 - 鉄道 - トラベル	日立の高速列車、英国で発車 - 鉄道 - トラベル
 http://www.asahi.com/travel/rail/gallery/100112chinasl/	asahi.com （朝日新聞社）：中国・内蒙古のＳＬ - トラベル	中国・内蒙古のＳＬ - トラベル
+http://www.business-i.jp/news/flash-page/news/200912020129a.nwc	速報／関西でも「駅ナカ」好調　週替わりスイーツやご当地グルメ - FujiSankei Business i.／Bloomberg GLOBAL FINANCE	速報／関西でも「駅ナカ」好調　週替わりスイーツやご当地グルメ
+http://www.business-i.jp/news/ind-page/news/200911130062a.nwc	産業／私鉄首都圏８社　７社が営業減益　ホテル事業の不振も目立つ - FujiSankei Business i.／Bloomberg GLOBAL FINANCE	産業／私鉄首都圏８社　７社が営業減益　ホテル事業の不振も目立つ
+http://www.chugoku-np.co.jp/News/Sp201001020187.html	【速報】Ｕターンラッシュが始まる　ＪＲも空の便も満席 - 中国新聞	【速報】Ｕターンラッシュが始まる　ＪＲも空の便も満席
+http://www.chugoku-np.co.jp/NewsPack/CN2009111301000633_National.html	ＪＲ西運転士自殺、労災認定せず　大阪高裁 - 中国新聞	ＪＲ西運転士自殺、労災認定せず　大阪高裁
 http://www.chunichi.co.jp/article/aichi/20091112/CK2009111202000185.html	中日新聞:針穴に映る感動を写真に　列車などモチーフに制作:愛知(CHUNICHI Web)	針穴に映る感動を写真に　列車などモチーフに制作:愛知
 http://www.chunichi.co.jp/article/aichi/20091124/CK2009112402000026.html	中日新聞:勝川駅の高架化完了　記念乗車会に２５０人:愛知(CHUNICHI Web)	勝川駅の高架化完了　記念乗車会に２５０人:愛知
+http://www.cnn.co.jp/business/CNN200912230029.html	CNN.co.jp：「失業者」向けの「格安料金列車」の運行発表、インド鉄道省	「失業者」向けの「格安料金列車」の運行発表、インド鉄道省
+http://www.cnn.co.jp/world/CNN200910210009.html	CNN.co.jp：インドで急行列車同士が衝突、乗客死傷	インドで急行列車同士が衝突、乗客死傷
+http://www.fnn-news.com/news/headlines/articles/CONN00166779.html	FNNニュース: 警視庁公安部の52歳...	警視庁公安部の52歳...
+http://www.fnn-news.com/news/headlines/articles/CONN00166831.html	FNNニュース: JR福知山線脱線事故...	JR福知山線脱線事故...
 http://www.hokkaido-np.co.jp/news/aomori/202811.html	津軽鉄道のストーブ列車あすから運行−北海道新聞[青森からこんにちは]	津軽鉄道のストーブ列車あすから運行
 http://www.hokkaido-np.co.jp/news/aomori/202993.html	東北新幹線 全線開通まであと1年−北海道新聞[青森からこんにちは]	東北新幹線 全線開通まであと1年
+http://www.hokkaido-np.co.jp/news/chiiki/205558.html	ムード満点光の回廊　ＪＲ洞爺駅前−北海道新聞[道央]	ムード満点光の回廊　ＪＲ洞爺駅前
+http://www.hokkaido-np.co.jp/news/donai/195886.html	鉄道路線図のランチョンマット　札幌のホテルが企画−北海道新聞[道内]	鉄道路線図のランチョンマット　札幌のホテルが企画
 http://www.jiji.com/jc/c?g=eco_30&k=2009111800949	時事ドットコム：現職委員２人の辞任求める＝ＪＲ西の報告受け前原国交相	現職委員２人の辞任求める＝ＪＲ西の報告受け前原国交相
 http://www.jiji.com/jc/c?g=eco_30&k=2009112400798	時事ドットコム：未着工３区間「年内に基本方針」＝整備新幹線−前原国交相	未着工３区間「年内に基本方針」＝整備新幹線−前原国交相
+http://www.kahoku.co.jp/news/2010/01/20100110t31014.htm	河北新報　東北のニュース／課題山積の二戸市に危機感　新幹線駅利用低迷、温泉郷閑散など	課題山積の二戸市に危機感　新幹線駅利用低迷、温泉郷閑散など
+http://www.kahoku.co.jp/shasetsu/2009/12/20091222s01.htm	河北新報 コルネット 社説 羽越線転覆事故／検察は真相解明に全力を	コルネット 社説 羽越線転覆事故／検察は真相解明に全力を
 http://www.kobe-np.co.jp/knews/0002541870.shtml	神戸新聞｜全国海外ニュース｜社会｜やり直し二審、痴漢を否定	社会｜やり直し二審、痴漢を否定
 http://www.kobe-np.co.jp/news/jiken/0002492267.shtml	神戸新聞｜事件・事故｜ＪＲ塚口駅で車両に不具合　６本が運休	ＪＲ塚口駅で車両に不具合　６本が運休
+http://www.kyoto-np.co.jp/article.php?mid=P2009110100010&genre=C1&area=O10	焼き肉店火災、ＪＲ一時運休　大阪　３万人影響：京都新聞	焼き肉店火災、ＪＲ一時運休　大阪　３万人影響
+http://www.kyoto-np.co.jp/article.php?mid=P2009111000096&genre=I1&area=K00	列車待ち、マジカルにおもてなし　嵯峨野観光鉄道：京都新聞	列車待ち、マジカルにおもてなし　嵯峨野観光鉄道
 http://www.tokyo-np.co.jp/article/chiba/20091107/CK2009110702000096.html	東京新聞:モノレールが衝突　千葉　作業中のクレーン車に　乗客１６０人けがなし:千葉(TOKYO Web)	モノレールが衝突　千葉　作業中のクレーン車に　乗客１６０人けがなし:千葉
 http://www.tokyo-np.co.jp/article/chiba/20091115/CK2009111502000082.html	東京新聞:ボジョレ列車　１９日に特別運行　千葉モノレール:千葉(TOKYO Web)	ボジョレ列車　１９日に特別運行　千葉モノレール:千葉
 http://www.yomiuri.co.jp/national/news/20100105-OYT1T00745.htm	ＪＲ東サイト改ざんウイルス、ホンダなども被害 : 社会 : YOMIURI ONLINE（読売新聞）	ＪＲ東サイト改ざんウイルス、ホンダなども被害 : 社会
