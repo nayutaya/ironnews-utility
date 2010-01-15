@@ -157,14 +157,24 @@ namespace :js do
 
     src = File.open(outfile, "rb") { |file| file.read }
 
-    code = ""
+    table = {}
     File.foreach(infile).map { |line|
       line.chomp.split(/\t+/)
     }.each { |host, pattern, replace|
-      pattern.sub!(/\\A/, "^")
-      pattern.sub!(/\\Z/, "$")
-      replace.gsub!(/\\(\d)/) { "$#{$1}" }
-      code += format(%|  "%s": [/%s/, "%s"],\n|, host, pattern, replace)
+      table[host] ||= []
+      table[host] << [pattern, replace]
+    }
+
+    code = ""
+    table.to_a.sort_by { |k, v| k }.each { |host, patterns|
+      code += format(%|  "%s": [|, host)
+      code += patterns.map { |pattern, replace|
+        pattern.sub!(/\\A/, "^")
+        pattern.sub!(/\\Z/, "$")
+        replace.gsub!(/\\(\d)/) { "$#{$1}" }
+        format(%|[/%s/, "%s"]|, pattern, replace)
+      }.join(",")
+      code += format(%|],\n|)
     }
 
     start_mark = "//<CleanseTitleTable>"
