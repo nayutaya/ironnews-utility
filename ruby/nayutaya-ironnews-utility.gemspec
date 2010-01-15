@@ -5,8 +5,8 @@ Gem::Specification.new do |s|
   s.required_ruby_version     = Gem::Requirement.new(">= 1.8.6")
 
   s.name    = "nayutaya-ironnews-utility"
-  s.version = "0.3.0"
-  s.date    = "2010-01-12"
+  s.version = "0.3.1"
+  s.date    = "2010-01-15"
 
   s.authors = ["Yuya Kato"]
   s.email   = "yuyakato@gmail.com"
