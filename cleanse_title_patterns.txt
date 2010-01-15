@@ -1,26 +1,26 @@
-mainichi.jp			\A(.+) - 毎日ｊｐ\(毎日新聞\)\Z			\1
-mytown.asahi.com	\Aasahi\.com:(.+)-マイタウン(.+)\Z		\1 - \2
-sankei.jp.msn.com	\A(.+) - MSN産経ニュース\Z				\1
-sankei.jp.msn.com	\A(.+?) *\(\d+/\d+ページ\)\Z				\1
-www.47news.jp		\A(.+) - 47NEWS（よんななニュース）\Z	\1
-www.asahi.com		\Aasahi\.com（朝日新聞社）：(.+)\Z		\1
-www.chunichi.co.jp	\A中日新聞:(.+)\(CHUNICHI Web\)\Z		\1
-www.yomiuri.co.jp	\A(.+) : YOMIURI ONLINE（読売新聞）\Z	\1
-www.jiji.com		\A時事ドットコム：(.+)\Z				\1
-slashdot.jp			\A(.+) - スラッシュドット・ジャパン\Z	\1
-www.tokyo-np.co.jp	\A東京新聞:(.+)\(TOKYO Web\)\Z	\1
+mytown.asahi.com	\Aasahi\.com:(.+)-マイタウン(.+)\Z	\1 - \2
+www.asahi.com	\Aasahi\.com（朝日新聞社）：(.+)\Z	\1
+japan.cnet.com	\A(.+) - CNET Japan\Z	\1
+www.jiji.com	\A時事ドットコム：(.+)\Z	\1
+sankei.jp.msn.com	\A(.+) - MSN産経ニュース\Z	\1
+sankei.jp.msn.com	\A(.+?) *\(\d+/\d+ページ\)\Z	\1
+www.47news.jp	\A(.+) - 47NEWS（よんななニュース）\Z	\1
+www.chunichi.co.jp	\A中日新聞:(.+)\(CHUNICHI Web\)\Z	\1
 www.hokkaido-np.co.jp	\A(.+)−北海道新聞\[青森からこんにちは\]\Z	\1
-japan.cnet.com		\A(.+) - CNET Japan\Z	\1
-gigazine.net		\A(.+) - GIGAZINE\Z	\1
 www.kobe-np.co.jp	\A神戸新聞｜(.+)\Z	\1
 www.kobe-np.co.jp	\A全国海外ニュース｜(.+)\Z	\1
 www.kobe-np.co.jp	\A事件・事故｜(.+)\Z	\1
+journal.mycom.co.jp	\A(.+) \| マイコミジャーナル\Z	\1
+www.tokyo-np.co.jp	\A東京新聞:(.+)\(TOKYO Web\)\Z	\1
 headlines.yahoo.co.jp	\A(.+) - Yahoo!ニュース\Z	\1
 headlines.yahoo.co.jp	\A(.+)（.+）\Z	\1
-journal.mycom.co.jp	\A(.+) \| マイコミジャーナル\Z	\1
 kyushu.yomiuri.co.jp	\A(.+) : 九州発 : YOMIURI ONLINE（読売新聞）\Z	\1
-mainichi.jp			\A(.+) － 毎日ｊｐ\(毎日新聞\)\Z	\1
-news.kanaloco.jp	\A(.+)：ローカルニュース : ニュース : カナロコ -- 神奈川新聞社\Z	\1
-news24.jp			\A(.+) \| 日テレNEWS24\Z	\1
 osaka.yomiuri.co.jp	\A(.+) : 関西発 : YOMIURI ONLINE（読売新聞）\Z	\1
+www.yomiuri.co.jp	\A(.+) : YOMIURI ONLINE（読売新聞）\Z	\1
+news.kanaloco.jp	\A(.+)：ローカルニュース : ニュース : カナロコ -- 神奈川新聞社\Z	\1
+mainichi.jp	\A(.+) - 毎日ｊｐ\(毎日新聞\)\Z	\1
+mainichi.jp	\A(.+) － 毎日ｊｐ\(毎日新聞\)\Z	\1
+news24.jp	\A(.+) \| 日テレNEWS24\Z	\1
 response.jp	\A(.+) \| レスポンス自動車ニュース（Response.jp）\Z	\1
+slashdot.jp	\A(.+) - スラッシュドット・ジャパン\Z	\1
+gigazine.net	\A(.+) - GIGAZINE\Z	\1

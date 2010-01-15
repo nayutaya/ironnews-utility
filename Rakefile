@@ -205,3 +205,28 @@ namespace :js do
     File.open(outfile, "wb") { |file| file.write(src) }
   end
 end
+
+namespace :sort do
+  desc "sort cleanse title patterns"
+  task :cleanse do
+    filename = File.join(File.dirname(__FILE__), "cleanse_title_patterns.txt")
+
+    table = {}
+    File.foreach(filename).map { |line|
+      line.chomp.split(/\t+/)
+    }.each { |host, pattern, replace|
+      table[host] ||= []
+      table[host] << [pattern, replace]
+    }
+
+    File.open(filename, "wb") { |file|
+      table.sort_by { |host, patterns|
+        host.split(/\./).reverse
+      }.each { |host, patterns|
+        patterns.each { |pattern, replace|
+          file.puts([host, pattern, replace].join("\t"))
+        }
+      }
+    }
+  end
+end
