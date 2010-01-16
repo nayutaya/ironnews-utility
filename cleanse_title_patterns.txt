@@ -9,7 +9,7 @@ japan.cnet.com	\A(.+) - CNET Japan\Z	\1
 www.fnn-news.com	\AFNNニュース: (.+)\Z	\1
 www.jiji.com	\A時事ドットコム：(.+)\Z	\1
 sankei.jp.msn.com	\A(.+) - MSN産経ニュース\Z	\1
-sankei.jp.msn.com	\A(.+)  \(\d+/\d+ページ\)\Z	\1
+sankei.jp.msn.com	\A(.+) \(\d+/\d+ページ\)\Z	\1
 www.tetsudo.com	\A(.+) - 鉄道コム\Z	\1
 www.47news.jp	\A(.+) - 47NEWS（よんななニュース）\Z	\1
 www.47news.jp	\A(.+) - 47NEWS \(よんななニュース\)\Z	\1

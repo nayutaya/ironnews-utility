@@ -38,7 +38,7 @@ module IronnewsUtility
     ].freeze,
     "sankei.jp.msn.com" => [
       [%r'\A(.+) - MSN産経ニュース\Z', '\1'].freeze,
-      [%r'\A(.+)  \(\d+/\d+ページ\)\Z', '\1'].freeze,
+      [%r'\A(.+) \(\d+/\d+ページ\)\Z', '\1'].freeze,
     ].freeze,
     "slashdot.jp" => [
       [%r'\A(.+) - スラッシュドット・ジャパン\Z', '\1'].freeze,
