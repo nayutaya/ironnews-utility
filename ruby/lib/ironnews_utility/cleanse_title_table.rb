@@ -58,10 +58,12 @@ module IronnewsUtility
     ].freeze,
     "www.asahi.com" => [
       [%r'\Aasahi\.com（朝日新聞社）：(.+)\Z', '\1'].freeze,
+      [%r'\Aasahi\.com （朝日新聞社）：(.+)\Z', '\1'].freeze,
       [%r'\Aasahi\.com：(.+)\Z', '\1'].freeze,
       [%r'\A(.+) - ことばなるほどね！ - 学ぼう\Z', '\1'].freeze,
       [%r'\A(.+) - 最新ニュース - 読もう\Z', '\1'].freeze,
-      [%r'\Aasahi\.com （朝日新聞社）：(.+)\Z', '\1'].freeze,
+      [%r'\A(.+) - (社会|国際|トラベル|ビジネス・経済|政治|サイエンス)\Z', '\1'].freeze,
+      [%r'\A(.+) - (関西|関西交通・旅ニュース)\Z', '\1'].freeze,
     ].freeze,
     "www.business-i.jp" => [
       [%r'\A(.+) - FujiSankei Business i\.／Bloomberg GLOBAL FINANCE\Z', '\1'].freeze,
@@ -116,6 +118,7 @@ module IronnewsUtility
     ].freeze,
     "www.yomiuri.co.jp" => [
       [%r'\A(.+) : YOMIURI ONLINE（読売新聞）\Z', '\1'].freeze,
+      [%r'\A(.+) : 地域\Z', '\1'].freeze,
     ].freeze,
   }.freeze
 end

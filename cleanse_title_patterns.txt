@@ -1,10 +1,12 @@
 www.afpbb.com	\A(.+)　国際ニュース : AFPBB News\Z	\1
 mytown.asahi.com	\Aasahi\.com:(.+)-マイタウン(.+)\Z	\1 - \2
 www.asahi.com	\Aasahi\.com（朝日新聞社）：(.+)\Z	\1
+www.asahi.com	\Aasahi\.com （朝日新聞社）：(.+)\Z	\1
 www.asahi.com	\Aasahi\.com：(.+)\Z	\1
 www.asahi.com	\A(.+) - ことばなるほどね！ - 学ぼう\Z	\1
 www.asahi.com	\A(.+) - 最新ニュース - 読もう\Z	\1
-www.asahi.com	\Aasahi\.com （朝日新聞社）：(.+)\Z	\1
+www.asahi.com	\A(.+) - (社会|国際|トラベル|ビジネス・経済|政治|サイエンス)\Z	\1
+www.asahi.com	\A(.+) - (関西|関西交通・旅ニュース)\Z	\1
 japan.cnet.com	\A(.+) - CNET Japan\Z	\1
 www.fnn-news.com	\AFNNニュース: (.+)\Z	\1
 www.jiji.com	\A時事ドットコム：(.+)\Z	\1
@@ -36,6 +38,7 @@ headlines.yahoo.co.jp	\A(.+)（.+）\Z	\1
 kyushu.yomiuri.co.jp	\A(.+) : 九州発 : YOMIURI ONLINE（読売新聞）\Z	\1
 osaka.yomiuri.co.jp	\A(.+) : 関西発 : YOMIURI ONLINE（読売新聞）\Z	\1
 www.yomiuri.co.jp	\A(.+) : YOMIURI ONLINE（読売新聞）\Z	\1
+www.yomiuri.co.jp	\A(.+) : 地域\Z	\1
 news.kanaloco.jp	\A(.+)：ローカルニュース : ニュース : カナロコ -- 神奈川新聞社\Z	\1
 mainichi.jp	\A(.+) - 毎日ｊｐ\(毎日新聞\)\Z	\1
 mainichi.jp	\A(.+) － 毎日ｊｐ\(毎日新聞\)\Z	\1
