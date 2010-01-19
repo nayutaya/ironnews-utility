@@ -8,6 +8,9 @@ http://japan.donga.com/srv/service.php3?bicode=040000&biid=2009113014688
 http://japanese.donga.com/srv/service.php3?biid=2009112779378
 http://jp.reuters.com/article/domesticEquities2/idJPnTK856785220100107
 http://mainichi.jp/life/money/kabu/nsj/news/20091125186696.html
+http://mainichi.jp/select/jiken/news/m20100119k0000m040099000c.html
+http://mainichi.jp/select/jiken/news/m20100120k0000m040118000c.html
+http://mainichi.jp/select/wadai/news/m20100119mog00m040059000c.html
 http://markets.nikkei.co.jp/
 http://news.ibc.co.jp/item_12561.html
 http://news.searchina.ne.jp/disp.cgi?y=2009&d=1127&f=stockname_1127_044.shtml
