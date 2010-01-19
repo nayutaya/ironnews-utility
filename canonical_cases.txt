@@ -23,5 +23,7 @@ http://www.jiji.com/jc/c?g=soc_30&k=2009120200251&j1	http://www.jiji.com/jc/c?g=
 http://www.jiji.com/jc/p?id=20091117092426-8673891&n=1	http://www.jiji.com/jc/p?id=20091117092426-8673891
 http://www.tetsudo.com/news/466/%E6%97%A5%E5%90%91%E5%B8%82%E9%A7%85%E3%81%8C%E5%BB%BA%E7%AF%89%E6%A5%AD%E5%8D%94%E4%BC%9A%E8%B3%9E%E3%82%92%E5%8F%97%E8%B3%9E/?tag=as.rss	http://www.tetsudo.com/news/466/%E6%97%A5%E5%90%91%E5%B8%82%E9%A7%85%E3%81%8C%E5%BB%BA%E7%AF%89%E6%A5%AD%E5%8D%94%E4%BC%9A%E8%B3%9E%E3%82%92%E5%8F%97%E8%B3%9E/
 http://www.tetsudo.com/news/467/%E6%9D%B1%E6%80%A5%E7%94%B0%E5%9C%92%E9%83%BD%E5%B8%82%E7%B7%9A%E3%81%A7%E6%97%A9%E8%B5%B7%E3%81%8D%E5%BF%9C%E6%8F%B4%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3/?tag=as.rss	http://www.tetsudo.com/news/467/%E6%9D%B1%E6%80%A5%E7%94%B0%E5%9C%92%E9%83%BD%E5%B8%82%E7%B7%9A%E3%81%A7%E6%97%A9%E8%B5%B7%E3%81%8D%E5%BF%9C%E6%8F%B4%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%9A%E3%83%BC%E3%83%B3/
+http://www.tokyo-np.co.jp/article/economics/news/CK2009122502000075.html?ref=rank	http://www.tokyo-np.co.jp/article/economics/news/CK2009122502000075.html
+http://www.tokyo-np.co.jp/article/kanagawa/20100105/CK2010010502000073.html?ref=rank	http://www.tokyo-np.co.jp/article/kanagawa/20100105/CK2010010502000073.html
 http://www.yomiuri.co.jp/e-japan/aichi/news/20091120-OYT8T00045.htm?from=dmst3	http://www.yomiuri.co.jp/e-japan/aichi/news/20091120-OYT8T00045.htm
 http://www.yomiuri.co.jp/e-japan/tokyo23/news/20091117-OYT8T00108.htm?from=navr	http://www.yomiuri.co.jp/e-japan/tokyo23/news/20091117-OYT8T00108.htm
