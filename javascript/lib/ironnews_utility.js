@@ -14,7 +14,7 @@ IronnewsUtility.CleanseTitleTable = {
   "mytown.asahi.com": [[/^asahi\.com:(.+)-マイタウン(.+)$/, "$1 - $2"]],
   "news.kanaloco.jp": [[/^(.+)：ローカルニュース : ニュース : カナロコ -- 神奈川新聞社$/, "$1"]],
   "news24.jp": [[/^(.+) \| 日テレNEWS24$/, "$1"]],
-  "osaka.yomiuri.co.jp": [[/^(.+) : 関西発 : YOMIURI ONLINE（読売新聞）$/, "$1"]],
+  "osaka.yomiuri.co.jp": [[/^(.+) : 関西発 : YOMIURI ONLINE（読売新聞）$/, "$1"],[/^(.+) : (経済　科学)$/, "$1"],[/^(.+) : (経済 ピックアップ|特集|ニュース|人 遊 食)$/, "$1"],[/^(.+) : 地域経済ニュース$/, "$1"]],
   "response.jp": [[/^(.+) \| レスポンス自動車ニュース（Response.jp）$/, "$1"]],
   "sankei.jp.msn.com": [[/^(.+) - MSN産経ニュース$/, "$1"],[/^(.+) \(\d+\/\d+ページ\)$/, "$1"]],
   "slashdot.jp": [[/^(.+) - スラッシュドット・ジャパン$/, "$1"]],
@@ -39,7 +39,7 @@ IronnewsUtility.CleanseTitleTable = {
   "www.nishinippon.co.jp": [[/^(.+) \/ 西日本新聞$/, "$1"]],
   "www.tetsudo.com": [[/^(.+) - 鉄道コム$/, "$1"]],
   "www.tokyo-np.co.jp": [[/^東京新聞:(.+)\(TOKYO Web\)$/, "$1"]],
-  "www.yomiuri.co.jp": [[/^(.+) : YOMIURI ONLINE（読売新聞）$/, "$1"],[/^(.+) : 地域$/, "$1"]],
+  "www.yomiuri.co.jp": [[/^(.+) : YOMIURI ONLINE（読売新聞）$/, "$1"],[/^(.+) : (社会|マネー・経済|国際|地域|旅ゅ〜ん！)$/, "$1"],[/^(.+) : 経済ニュース$/, "$1"]],
 //</CleanseTitleTable>
   end: null
 };

@@ -32,6 +32,9 @@ module IronnewsUtility
     ].freeze,
     "osaka.yomiuri.co.jp" => [
       [%r'\A(.+) : 関西発 : YOMIURI ONLINE（読売新聞）\Z', '\1'].freeze,
+      [%r'\A(.+) : (経済　科学)\Z', '\1'].freeze,
+      [%r'\A(.+) : (経済 ピックアップ|特集|ニュース|人 遊 食)\Z', '\1'].freeze,
+      [%r'\A(.+) : 地域経済ニュース\Z', '\1'].freeze,
     ].freeze,
     "response.jp" => [
       [%r'\A(.+) \| レスポンス自動車ニュース（Response.jp）\Z', '\1'].freeze,
@@ -118,7 +121,8 @@ module IronnewsUtility
     ].freeze,
     "www.yomiuri.co.jp" => [
       [%r'\A(.+) : YOMIURI ONLINE（読売新聞）\Z', '\1'].freeze,
-      [%r'\A(.+) : 地域\Z', '\1'].freeze,
+      [%r'\A(.+) : (社会|マネー・経済|国際|地域|旅ゅ〜ん！)\Z', '\1'].freeze,
+      [%r'\A(.+) : 経済ニュース\Z', '\1'].freeze,
     ].freeze,
   }.freeze
 end

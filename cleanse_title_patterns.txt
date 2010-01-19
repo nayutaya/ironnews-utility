@@ -37,8 +37,12 @@ headlines.yahoo.co.jp	\A(.+) - Yahoo!ニュース\Z	\1
 headlines.yahoo.co.jp	\A(.+)（.+）\Z	\1
 kyushu.yomiuri.co.jp	\A(.+) : 九州発 : YOMIURI ONLINE（読売新聞）\Z	\1
 osaka.yomiuri.co.jp	\A(.+) : 関西発 : YOMIURI ONLINE（読売新聞）\Z	\1
+osaka.yomiuri.co.jp	\A(.+) : (経済　科学)\Z	\1
+osaka.yomiuri.co.jp	\A(.+) : (経済 ピックアップ|特集|ニュース|人 遊 食)\Z	\1
+osaka.yomiuri.co.jp	\A(.+) : 地域経済ニュース\Z	\1
 www.yomiuri.co.jp	\A(.+) : YOMIURI ONLINE（読売新聞）\Z	\1
-www.yomiuri.co.jp	\A(.+) : 地域\Z	\1
+www.yomiuri.co.jp	\A(.+) : (社会|マネー・経済|国際|地域|旅ゅ〜ん！)\Z	\1
+www.yomiuri.co.jp	\A(.+) : 経済ニュース\Z	\1
 news.kanaloco.jp	\A(.+)：ローカルニュース : ニュース : カナロコ -- 神奈川新聞社\Z	\1
 mainichi.jp	\A(.+) - 毎日ｊｐ\(毎日新聞\)\Z	\1
 mainichi.jp	\A(.+) － 毎日ｊｐ\(毎日新聞\)\Z	\1
