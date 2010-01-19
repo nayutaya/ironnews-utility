@@ -3,6 +3,7 @@ NAME = "nayutaya-ironnews-utility"
 
 task :default => :gemspec
 
+desc "bump version"
 task :version do
   require "lib/ironnews_utility/version"
   cur_version  = IronnewsUtility::VERSION
@@ -18,7 +19,7 @@ task :version do
   }
 end
 
-desc "generate gemspec file from template"
+desc "generate gemspec"
 task :gemspec do
   require "erb"
   require "lib/ironnews_utility"
@@ -42,6 +43,7 @@ task :build do
   sh "gem build #{NAME}.gemspec"
 end
 
+desc "push gem"
 task :push do
   require "lib/ironnews_utility"
   target = "#{NAME}-#{IronnewsUtility::VERSION}.gem"
