@@ -1,12 +1,14 @@
 
-NAME = "nayutaya-ironnews-utility"
+require "lib/ironnews_utility/version"
+
+NAME    = "nayutaya-ironnews-utility"
+VERSION = IronnewsUtility::VERSION
 
 task :default => :gemspec
 
 desc "bump version"
 task :version do
-  require "lib/ironnews_utility/version"
-  cur_version  = IronnewsUtility::VERSION
+  cur_version  = VERSION
   next_version = cur_version.succ
   puts("#{cur_version} -> #{next_version}")
 
@@ -22,12 +24,11 @@ end
 desc "generate gemspec"
 task :gemspec do
   require "erb"
-  require "lib/ironnews_utility"
 
   src  = File.open("#{NAME}.gemspec.erb", "rb") { |file| file.read }
   erb  = ERB.new(src, nil, "-")
 
-  version = IronnewsUtility::VERSION
+  version = VERSION
   date    = Time.now.strftime("%Y-%m-%d")
 
   files      = Dir.glob("**/*").select { |s| File.file?(s) }.reject { |s| /\.gem\z/ =~ s }
@@ -45,7 +46,6 @@ end
 
 desc "push gem"
 task :push do
-  require "lib/ironnews_utility"
-  target = "#{NAME}-#{IronnewsUtility::VERSION}.gem"
+  target = "#{NAME}-#{VERSION}.gem"
   sh "gem push #{target}"
 end
