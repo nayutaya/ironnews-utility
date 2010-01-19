@@ -3,6 +3,7 @@ http://car.nikkei.co.jp/news/article.aspx?id=AS2M0803X%2008122009
 http://car.nikkei.co.jp/release/
 http://cargo-news.co.jp/contents/code/091210_1
 http://contents.innolife.net/listm.php?ac_id=7&ai_id=11050
+http://gendai.net/?m=view&c=010&no=23049
 http://japan.donga.com/srv/service.php3?bicode=040000&biid=2009113014688
 http://japanese.donga.com/srv/service.php3?biid=2009112779378
 http://jp.reuters.com/article/domesticEquities2/idJPnTK856785220100107
@@ -14,6 +15,7 @@ http://news.tbs.co.jp/newseye/tbs_newseye4313268.html
 http://news.tbs.co.jp/newseye/tbs_newseye4318722.html
 http://release.nikkei.co.jp/detail.cfm?relID=237328&lindID=5
 http://rkk.jp/cgi-bin/newscgi/localnews.cgi?id=NS003200911181656200111
+http://www.asahi.com/english/weekly/0103/01.html
 http://www.chemicaldaily.co.jp/news/200912/10/04601_2131.html
 http://www.chosunonline.com/news/20091128000024
 http://www.chugoku-np.co.jp/News/Tn200910280033.html
@@ -25,6 +27,7 @@ http://www.keidanren.or.jp/japanese/journal/times/2009/1126/05.html
 http://www.kentsu.co.jp/shizuoka/news/p02557.html
 http://www.mbs.jp/news/jnn_4326495_zen.shtml
 http://www.mbs.jp/news/kansaiflash_GE091213155500304184.shtml
+http://www.muromin.mnw.jp/murominn-web/back/2010/01/04/20100104m_01.html
 http://www.mxtv.co.jp/mxnews/news/200911188.html
 http://www.nikkei.co.jp/kaigai/eu/20091129D2M2901129.html
 http://www.nikkei.co.jp/kyushu/news/200911250000002184.html
@@ -33,6 +36,7 @@ http://www.nikkei.co.jp/news/shakai/20091021AT1G2103N21102009.html
 http://www.nikkei.co.jp/news/shakai/20091118AT1G1704417112009.html
 http://www.pjnews.net/
 http://www.portfolio.nl/article/show/3099
+http://www.rkk.co.jp/cgi-bin/newscgi/localnews.cgi?id=NS003201001141030330111
 http://www.sanpo-pub.co.jp/column/akihabara/20091225.html
 http://www.shonai-nippo.co.jp/cgi/0/ad_vw.cgi?p=dy:2009:12:16
 http://www.tku.co.jp/pc/news/view_news.php?id=19817&mod=3000
@@ -41,5 +45,6 @@ http://www.toyama.hokkoku.co.jp/subpage/T20091217201.htm
 http://www.travelvision.jp/modules/news1/article.php?storyid=43054
 http://www.usfl.com/Daily/News/09/11/1130_020.asp?id=75227
 http://www.wbs.co.jp/news.html?p=7294
+http://www.worldtimes.co.jp/today/kokunai/091129-1.html
 http://www.xinhua.jp/industry/242974/
 http://www2.knb.ne.jp/news/20091125_22134.htm
