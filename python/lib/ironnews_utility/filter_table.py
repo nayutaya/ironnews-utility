@@ -9,6 +9,7 @@ FilterTable = (
   re.compile(r'\Ahttp://cargo-news\.co\.jp/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://contents\.innolife\.net/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://gendai\.net/'), # 理由: title要素に記事名が含まれていないため
+  re.compile(r'\Ahttp://ja\.espnf1\.com/'), # 理由: 記事名が文字化け、かつ鉄道関連のニュースが含まれないため
   re.compile(r'\Ahttp://japan\.donga\.com/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://japanese\.donga\.com/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://jp\.reuters\.com/'), # 理由: 記事名の取得に失敗することが多く、かつ鉄道関連の記事が少ないため
