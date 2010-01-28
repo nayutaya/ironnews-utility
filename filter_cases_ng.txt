@@ -12,6 +12,7 @@ http://mainichi.jp/life/money/kabu/nsj/news/20091125186696.html
 http://mainichi.jp/select/jiken/news/m20100119k0000m040099000c.html
 http://mainichi.jp/select/jiken/news/m20100120k0000m040118000c.html
 http://mainichi.jp/select/wadai/news/m20100119mog00m040059000c.html
+http://mainichi.pheedo.jp/click.phdo?i=75567d39b61ee27aa9e2dc9ad6141c26
 http://markets.nikkei.co.jp/
 http://news.ibc.co.jp/item_12561.html
 http://news.searchina.ne.jp/disp.cgi?y=2009&d=1127&f=stockname_1127_044.shtml
@@ -19,6 +20,8 @@ http://news.tbs.co.jp/newseye/tbs_newseye4313268.html
 http://news.tbs.co.jp/newseye/tbs_newseye4318722.html
 http://release.nikkei.co.jp/detail.cfm?relID=237328&lindID=5
 http://rkk.jp/cgi-bin/newscgi/localnews.cgi?id=NS003200911181656200111
+http://rss.asahi.com/click.phdo?i=69c084b2e79ccc712d3d261dc9a7762d
+http://rss.rssad.jp/rss/artclk/z0r9SvPmQy3H/28418f9413b2b138ea9ee96b3959c6c1?ul=02jNiIyeNIz7rfG_1Su46s2Xy3WlUZeZD0vFQThDJKib1MWp7XVRvT25v1BO4JTXwYgf.y473JFeMb0S1QVYh0V1wY3nPYtTFOOSkEewIO_dw3HIAK7RnaMogHNqU5mVI_V7by3
 http://www.asahi.com/english/weekly/0103/01.html
 http://www.chemicaldaily.co.jp/news/200912/10/04601_2131.html
 http://www.chosunonline.com/news/20091128000024
@@ -38,6 +41,8 @@ http://www.nikkei.co.jp/kyushu/news/200911250000002184.html
 http://www.nikkei.co.jp/news/
 http://www.nikkei.co.jp/news/shakai/20091021AT1G2103N21102009.html
 http://www.nikkei.co.jp/news/shakai/20091118AT1G1704417112009.html
+http://www.pheedo.jp/feeds/ht.php?t=c&i=42008182ada8726260b3b589cd23530f&p=4
+http://www.pheedo.jp/feeds/ht.php?t=c&i=75567d39b61ee27aa9e2dc9ad6141c26&p=4
 http://www.pjnews.net/
 http://www.portfolio.nl/article/show/3099
 http://www.rkk.co.jp/cgi-bin/newscgi/localnews.cgi?id=NS003201001141030330111

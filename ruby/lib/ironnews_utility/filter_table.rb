@@ -13,12 +13,16 @@ module IronnewsUtility
     %r'\Ahttp://jp\.reuters\.com/', # 理由: 記事名の取得に失敗することが多く、かつ鉄道関連の記事が少ないため
     %r'\Ahttp://mainichi\.jp/life/money/kabu/nsj/news/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://mainichi\.jp/select/.+?/news/m', # 理由: 記事の閲覧が有料であるため
+    %r'\Ahttp://mainichi\.pheedo\.jp/', # 理由: リダイレクト用URLであるため
     %r'\Ahttp://markets\.nikkei\.co\.jp/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://news\.ibc\.co\.jp/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://news\.searchina\.ne\.jp/', # 理由: 記事の閲覧が有料であるため
     %r'\Ahttp://news\.tbs\.co\.jp/newseye/', # 理由: 記事の閲覧可能期間が短いため
     %r'\Ahttp://release\.nikkei\.co\.jp/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://rkk\.jp/', # 理由: title要素に記事名が含まれていないため
+    %r'\Ahttp://rss\.asahi\.com/', # 理由: リダイレクト用URLであるため
+    %r'\Ahttp://rss\.rssad\.jp/', # 理由: リダイレクト用URLであるため
+    %r'\Ahttp://www.pheedo.jp/', # 理由: リダイレクト用URLであるため
     %r'\Ahttp://www2\.knb\.ne\.jp/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.asahi\.com/english/weekly/', # 理由: title要素に記事名が含まれていないため
     %r'\Ahttp://www\.chemicaldaily\.co\.jp/news/', # 理由: title要素に記事名が含まれていないため
