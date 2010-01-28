@@ -1,6 +1,7 @@
 
 module IronnewsUtility
   CanonicalTable = [
+    [%r'\A(http://[a-z]+\.yomiuri\.co\.jp/.+)\?from=[a-z0-9]+&ref=[a-z0-9]+\Z', '\1'].freeze,
     [%r'\A(http://[a-z]+\.yomiuri\.co\.jp/.+)\?from=[a-z0-9]+\Z', '\1'].freeze,
     [%r'\A(http://japan\.cnet\.com/.+)\?ref=rss\Z', '\1'].freeze,
     [%r'\A(http://journal\.mycom\.co\.jp/.+)\?rt=na\Z', '\1index.html'].freeze,

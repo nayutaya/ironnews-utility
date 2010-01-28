@@ -3,6 +3,7 @@
 import re
 
 CanonicalTable = (
+  (re.compile(r'\A(http://[a-z]+\.yomiuri\.co\.jp/.+)\?from=[a-z0-9]+&ref=[a-z0-9]+\Z'), r'\1'),
   (re.compile(r'\A(http://[a-z]+\.yomiuri\.co\.jp/.+)\?from=[a-z0-9]+\Z'), r'\1'),
   (re.compile(r'\A(http://japan\.cnet\.com/.+)\?ref=rss\Z'), r'\1'),
   (re.compile(r'\A(http://journal\.mycom\.co\.jp/.+)\?rt=na\Z'), r'\1index.html'),
