@@ -60,3 +60,5 @@ http://www.wbs.co.jp/news.html?p=7294
 http://www.worldtimes.co.jp/today/kokunai/091129-1.html
 http://www.xinhua.jp/industry/242974/
 http://www2.knb.ne.jp/news/20091125_22134.htm
+http://mytown.asahi.com/fukuoka/news.php
+http://mytown.asahi.com/hyogo/news.php

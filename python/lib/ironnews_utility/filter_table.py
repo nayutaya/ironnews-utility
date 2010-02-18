@@ -57,4 +57,5 @@ FilterTable = (
   re.compile(r'\Ahttp://www\.wbs\.co\.jp/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://www\.worldtimes\.co\.jp/today/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://www\.xinhua\.jp/'), # 理由: 記事の閲覧が有料であるため
+  re.compile(r'\Ahttp://mytown\.asahi\.com/.+/news\.php\Z'), # 理由: 実体が存在しないため
 )
