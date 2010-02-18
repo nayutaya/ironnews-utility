@@ -8,7 +8,7 @@
 \Ahttp://japan\.donga\.com/						理由: title要素に記事名が含まれていないため
 \Ahttp://japanese\.donga\.com/					理由: title要素に記事名が含まれていないため
 \Ahttp://jp\.reuters\.com/						理由: 記事名の取得に失敗することが多く、かつ鉄道関連の記事が少ないため
-\Ahttp://mainichi\.jp/enta/sports/baseball/news/	理由: title要素に記事名が含まれていないため
+\Ahttp://mainichi\.jp/enta/sports/baseball/news/m	理由: title要素に記事名が含まれていないため
 \Ahttp://mainichi\.jp/life/money/kabu/nsj/news/	理由: title要素に記事名が含まれていないため
 \Ahttp://mainichi\.jp/select/.+?/news/m			理由: title要素に記事名が含まれていないため
 \Ahttp://mainichi\.pheedo\.jp/					理由: リダイレクト用URLであるため

@@ -13,18 +13,20 @@ FilterTable = (
   re.compile(r'\Ahttp://japan\.donga\.com/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://japanese\.donga\.com/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://jp\.reuters\.com/'), # 理由: 記事名の取得に失敗することが多く、かつ鉄道関連の記事が少ないため
-  re.compile(r'\Ahttp://mainichi\.jp/enta/sports/baseball/news/'), # 理由: title要素に記事名が含まれていないため
+  re.compile(r'\Ahttp://mainichi\.jp/enta/sports/baseball/news/m'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://mainichi\.jp/life/money/kabu/nsj/news/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://mainichi\.jp/select/.+?/news/m'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://mainichi\.pheedo\.jp/'), # 理由: リダイレクト用URLであるため
   re.compile(r'\Ahttp://markets\.nikkei\.co\.jp/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://news\.ibc\.co\.jp/'), # 理由: title要素に記事名が含まれていないため
+  re.compile(r'\Ahttp://news\.rkb\.ne\.jp/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://news\.searchina\.ne\.jp/'), # 理由: 記事の閲覧が有料であるため
   re.compile(r'\Ahttp://news\.tbs\.co\.jp/newseye/'), # 理由: 記事の閲覧可能期間が短いため
   re.compile(r'\Ahttp://release\.nikkei\.co\.jp/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://rkk\.jp/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://rss\.asahi\.com/'), # 理由: リダイレクト用URLであるため
   re.compile(r'\Ahttp://rss\.rssad\.jp/'), # 理由: リダイレクト用URLであるため
+  re.compile(r'\Ahttp://sports\.nikkei\.co\.jp/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://www.pheedo.jp/'), # 理由: リダイレクト用URLであるため
   re.compile(r'\Ahttp://www2\.knb\.ne\.jp/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://www\.asahi\.com/english/weekly/'), # 理由: title要素に記事名が含まれていないため
@@ -55,6 +57,4 @@ FilterTable = (
   re.compile(r'\Ahttp://www\.wbs\.co\.jp/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://www\.worldtimes\.co\.jp/today/'), # 理由: title要素に記事名が含まれていないため
   re.compile(r'\Ahttp://www\.xinhua\.jp/'), # 理由: 記事の閲覧が有料であるため
-  re.compile(r'\Ahttp://sports\.nikkei\.co\.jp/'), # 理由: title要素に記事名が含まれていないため
-  re.compile(r'\Ahttp://news\.rkb\.ne\.jp/'), # 理由: title要素に記事名が含まれていないため
 )
