@@ -127,8 +127,23 @@ module IronnewsUtility
     "www.nhk.or.jp" => [
       [%r'\ANHKニュース　(.+)\Z', '\1'].freeze,
     ].freeze,
+    "www.nikkansports.com" => [
+      [%r'\A(.+) : nikkansports.com\Z', '\1'].freeze,
+    ].freeze,
     "www.nishinippon.co.jp" => [
       [%r'\A(.+) / 西日本新聞\Z', '\1'].freeze,
+    ].freeze,
+    "www.sankei-kansai.com" => [
+      [%r'\A(.+)：産経関西（産経新聞大阪本社公式ニュースサイト）\Z', '\1'].freeze,
+    ].freeze,
+    "www.sankeibiz.jp" => [
+      [%r'\A(.+) - SankeiBiz（サンケイビズ）\Z', '\1'].freeze,
+      [%r'\A(.+) \(\d+/\d+ページ\)\Z', '\1'].freeze,
+    ].freeze,
+    "www.shikoku-np.co.jp" => [
+      [%r'\A(.+) \| 四国新聞社\Z', '\1'].freeze,
+      [%r'\A(.+) \| (?:香川の|全国|スポーツ)ニュース\Z', '\1'].freeze,
+      [%r'\A(.+)―四国新聞社\Z', '\1'].freeze,
     ].freeze,
     "www.tetsudo.com" => [
       [%r'\A(.+) - 鉄道コム\Z', '\1'].freeze,

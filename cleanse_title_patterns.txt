@@ -14,7 +14,9 @@ www.j-cast.com	\A(.+) \(\d+/\d+\)\Z	\1
 www.jiji.com	\A時事ドットコム：(.+)\Z	\1
 sankei.jp.msn.com	\A(.+) - MSN産経ニュース\Z	\1
 sankei.jp.msn.com	\A(.+) \(\d+/\d+ページ\)\Z	\1
+www.nikkansports.com	\A(.+) : nikkansports.com\Z	\1
 rocketnews24.com	\A(.+) – ロケットニュース24（β）\Z	\1
+www.sankei-kansai.com	\A(.+)：産経関西（産経新聞大阪本社公式ニュースサイト）\Z	\1
 www.tetsudo.com	\A(.+) - 鉄道コム\Z	\1
 www.47news.jp	\A(.+) - 47NEWS（よんななニュース）\Z	\1
 www.47news.jp	\A(.+) - 47NEWS \(よんななニュース\)\Z	\1
@@ -39,6 +41,9 @@ www.nagasaki-np.co.jp	\A龍〜なが　長崎新聞ホームページ：(.+)\Z	\
 techon.nikkeibp.co.jp	\A(.+) - Tech-On！\Z	\1
 www.nishinippon.co.jp	\A(.+) / 西日本新聞\Z	\1
 svr.sanyo.oni.co.jp	\A(.+) - 山陽新聞地域ニュース\Z	\1
+www.shikoku-np.co.jp	\A(.+) \| 四国新聞社\Z	\1
+www.shikoku-np.co.jp	\A(.+) \| (?:香川の|全国|スポーツ)ニュース\Z	\1
+www.shikoku-np.co.jp	\A(.+)―四国新聞社\Z	\1
 www.tokyo-np.co.jp	\A東京新聞:(.+)\(TOKYO Web\)\Z	\1
 headlines.yahoo.co.jp	\A(.+) - Yahoo!ニュース\Z	\1
 headlines.yahoo.co.jp	\A(.+)（.+）\Z	\1
@@ -56,5 +61,7 @@ mainichi.jp	\A(.+) － 毎日ｊｐ\(毎日新聞\)\Z	\1
 news24.jp	\A(.+) \| 日テレNEWS24\Z	\1
 www.nhk.or.jp	\ANHKニュース　(.+)\Z	\1
 response.jp	\A(.+) \| レスポンス自動車ニュース（Response.jp）\Z	\1
+www.sankeibiz.jp	\A(.+) - SankeiBiz（サンケイビズ）\Z	\1
+www.sankeibiz.jp	\A(.+) \(\d+/\d+ページ\)\Z	\1
 slashdot.jp	\A(.+) - スラッシュドット・ジャパン\Z	\1
 gigazine.net	\A(.+) - GIGAZINE\Z	\1
