@@ -13,6 +13,7 @@ CanonicalTable = (
   (re.compile(r'\A(http://news\.searchina\.ne\.jp/.+)&pt=large\Z'), r'\1'),
   (re.compile(r'\A(http://techon\.nikkeibp\.co\.jp/.+)\?ref=rss\Z'), r'\1'),
   (re.compile(r'\A(http://www\.asahi\.com/.+)\?ref=rss\Z'), r'\1'),
+  (re.compile(r'\A(http://www\.asahi\.com/.+)_01(\.html)\Z'), r'\1\2'),
   (re.compile(r'\A(http://www\.chunichi\.co\.jp/.+)\?ref=rank\Z'), r'\1'),
   (re.compile(r'\A(http://www\.jiji\.com/.+)&j1\Z'), r'\1'),
   (re.compile(r'\A(http://www\.jiji\.com/.+)&n=1\Z'), r'\1'),

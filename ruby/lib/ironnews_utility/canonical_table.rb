@@ -11,6 +11,7 @@ module IronnewsUtility
     [%r'\A(http://news\.searchina\.ne\.jp/.+)&pt=large\Z', '\1'].freeze,
     [%r'\A(http://techon\.nikkeibp\.co\.jp/.+)\?ref=rss\Z', '\1'].freeze,
     [%r'\A(http://www\.asahi\.com/.+)\?ref=rss\Z', '\1'].freeze,
+    [%r'\A(http://www\.asahi\.com/.+)_01(\.html)\Z', '\1\2'].freeze,
     [%r'\A(http://www\.chunichi\.co\.jp/.+)\?ref=rank\Z', '\1'].freeze,
     [%r'\A(http://www\.jiji\.com/.+)&j1\Z', '\1'].freeze,
     [%r'\A(http://www\.jiji\.com/.+)&n=1\Z', '\1'].freeze,
