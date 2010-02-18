@@ -51,3 +51,8 @@ www.nhk.or.jp	\ANHKニュース　(.+)\Z	\1
 response.jp	\A(.+) \| レスポンス自動車ニュース（Response.jp）\Z	\1
 slashdot.jp	\A(.+) - スラッシュドット・ジャパン\Z	\1
 gigazine.net	\A(.+) - GIGAZINE\Z	\1
+rocketnews24.com	\A(.+) – ロケットニュース24（β）\Z	\1
+www.bloomberg.co.jp	\A(.+) - Bloomberg\.co\.jp\Z	\1
+www.gifu-np.co.jp	\A(.+)(?: |　−　)岐阜新聞 Web\Z	\1
+www.j-cast.com	\A(.+) : J-CAST(?:ニュース|会社ウォッチ|モノウォッチ|テレビウォッチ)\Z	\1
+www.j-cast.com	\A(.+) \(\d+/\d+\)\Z	\1

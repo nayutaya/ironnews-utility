@@ -39,6 +39,9 @@ module IronnewsUtility
     "response.jp" => [
       [%r'\A(.+) \| レスポンス自動車ニュース（Response.jp）\Z', '\1'].freeze,
     ].freeze,
+    "rocketnews24.com" => [
+      [%r'\A(.+) – ロケットニュース24（β）\Z', '\1'].freeze,
+    ].freeze,
     "sankei.jp.msn.com" => [
       [%r'\A(.+) - MSN産経ニュース\Z', '\1'].freeze,
       [%r'\A(.+) \(\d+/\d+ページ\)\Z', '\1'].freeze,
@@ -68,6 +71,9 @@ module IronnewsUtility
       [%r'\A(.+) - (社会|国際|トラベル|ビジネス・経済|政治|サイエンス)\Z', '\1'].freeze,
       [%r'\A(.+) - (関西|関西交通・旅ニュース)\Z', '\1'].freeze,
     ].freeze,
+    "www.bloomberg.co.jp" => [
+      [%r'\A(.+) - Bloomberg\.co\.jp\Z', '\1'].freeze,
+    ].freeze,
     "www.business-i.jp" => [
       [%r'\A(.+) - FujiSankei Business i\.／Bloomberg GLOBAL FINANCE\Z', '\1'].freeze,
     ].freeze,
@@ -83,8 +89,15 @@ module IronnewsUtility
     "www.fnn-news.com" => [
       [%r'\AFNNニュース: (.+)\Z', '\1'].freeze,
     ].freeze,
+    "www.gifu-np.co.jp" => [
+      [%r'\A(.+)(?: |　−　)岐阜新聞 Web\Z', '\1'].freeze,
+    ].freeze,
     "www.hokkaido-np.co.jp" => [
       [%r'\A(.+)−北海道新聞\[.+\]\Z', '\1'].freeze,
+    ].freeze,
+    "www.j-cast.com" => [
+      [%r'\A(.+) : J-CAST(?:ニュース|会社ウォッチ|モノウォッチ|テレビウォッチ)\Z', '\1'].freeze,
+      [%r'\A(.+) \(\d+/\d+\)\Z', '\1'].freeze,
     ].freeze,
     "www.jiji.com" => [
       [%r'\A時事ドットコム：(.+)\Z', '\1'].freeze,
