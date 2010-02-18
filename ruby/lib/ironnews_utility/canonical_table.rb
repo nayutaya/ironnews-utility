@@ -5,6 +5,7 @@ module IronnewsUtility
     [%r'\A(http://[a-z]+\.yomiuri\.co\.jp/.+)\?from=[a-z0-9]+\Z', '\1'].freeze,
     [%r'\A(http://japan\.cnet\.com/.+)\?ref=rss\Z', '\1'].freeze,
     [%r'\A(http://journal\.mycom\.co\.jp/.+)\?rt=na\Z', '\1index.html'].freeze,
+    [%r'\A(http://journal\.mycom\.co\.jp/.+/)\Z', '\1index.html'].freeze,
     [%r'\A(http://mainichi\.jp/.+)\?inb=[a-z]+\Z', '\1'].freeze,
     [%r'\A(http://mainichi\.jp/.+)\?link_id=[A-Z0-9]+\Z', '\1'].freeze,
     [%r'\A(http://news\.searchina\.ne\.jp/.+)&pt=large\Z', '\1'].freeze,

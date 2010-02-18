@@ -1,5 +1,8 @@
 http://japan.cnet.com/news/tech/story/0,2000056025,20404146,00.htm?ref=rss	http://japan.cnet.com/news/tech/story/0,2000056025,20404146,00.htm
 http://journal.mycom.co.jp/news/2009/11/09/027/?rt=na	http://journal.mycom.co.jp/news/2009/11/09/027/index.html
+http://journal.mycom.co.jp/news/2009/11/11/074/index.html	http://journal.mycom.co.jp/news/2009/11/11/074/index.html
+http://journal.mycom.co.jp/news/2009/12/08/037/	http://journal.mycom.co.jp/news/2009/12/08/037/index.html
+http://journal.mycom.co.jp/news/2009/12/11/036/	http://journal.mycom.co.jp/news/2009/12/11/036/index.html
 http://journal.mycom.co.jp/series/photograph/031/?rt=na	http://journal.mycom.co.jp/series/photograph/031/index.html
 http://mainichi.jp/select/science/news/20091119k0000m040067000c.html?inb=yt	http://mainichi.jp/select/science/news/20091119k0000m040067000c.html
 http://mainichi.jp/select/today/news/20091109k0000e040037000c.html?link_id=RSH02	http://mainichi.jp/select/today/news/20091109k0000e040037000c.html
