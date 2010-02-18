@@ -25,11 +25,13 @@ www.chunichi.co.jp	\A中日新聞:(.+)\(CHUNICHI Web\)\Z	\1
 www.cnn.co.jp	\ACNN\.co\.jp：(.+)\Z	\1
 www.gifu-np.co.jp	\A(.+)(?: |　−　)岐阜新聞 Web\Z	\1
 www.hokkaido-np.co.jp	\A(.+)−北海道新聞\[.+\]\Z	\1
-www.kahoku.co.jp	\A河北新報　東北のニュース／(.+)\Z	\1
+www.kahoku.co.jp	\A河北新報　(?:東北|内外)のニュース／(.+)\Z	\1
 www.kahoku.co.jp	\A河北新報 (.+)\Z	\1
+www.kfb.co.jp	\A(.+) :: 福島県内ニュース :: KFB福島放送\Z	\1
 www.kobe-np.co.jp	\A神戸新聞｜(.+)\Z	\1
 www.kobe-np.co.jp	\A全国海外ニュース｜(.+)\Z	\1
-www.kobe-np.co.jp	\A事件・事故｜(.+)\Z	\1
+www.kobe-np.co.jp	\A(?:淡路|阪神・北摂|姫路・西播磨|但馬|東播磨|神戸)｜(.+)\Z	\1
+www.kobe-np.co.jp	\A(?:事件・事故|社会|文化|経済)｜(.+)\Z	\1
 www.kyoto-np.co.jp	\A(.+)：京都新聞\Z	\1
 www.mutusinpou.co.jp	\A(.+) by 陸奥新報\Z	\1
 journal.mycom.co.jp	\A(.+) \| マイコミジャーナル\Z	\1

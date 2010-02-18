@@ -103,13 +103,17 @@ module IronnewsUtility
       [%r'\A時事ドットコム：(.+)\Z', '\1'].freeze,
     ].freeze,
     "www.kahoku.co.jp" => [
-      [%r'\A河北新報　東北のニュース／(.+)\Z', '\1'].freeze,
+      [%r'\A河北新報　(?:東北|内外)のニュース／(.+)\Z', '\1'].freeze,
       [%r'\A河北新報 (.+)\Z', '\1'].freeze,
+    ].freeze,
+    "www.kfb.co.jp" => [
+      [%r'\A(.+) :: 福島県内ニュース :: KFB福島放送\Z', '\1'].freeze,
     ].freeze,
     "www.kobe-np.co.jp" => [
       [%r'\A神戸新聞｜(.+)\Z', '\1'].freeze,
       [%r'\A全国海外ニュース｜(.+)\Z', '\1'].freeze,
-      [%r'\A事件・事故｜(.+)\Z', '\1'].freeze,
+      [%r'\A(?:淡路|阪神・北摂|姫路・西播磨|但馬|東播磨|神戸)｜(.+)\Z', '\1'].freeze,
+      [%r'\A(?:事件・事故|社会|文化|経済)｜(.+)\Z', '\1'].freeze,
     ].freeze,
     "www.kyoto-np.co.jp" => [
       [%r'\A(.+)：京都新聞\Z', '\1'].freeze,
