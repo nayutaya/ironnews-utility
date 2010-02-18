@@ -66,6 +66,8 @@ http://www.chunichi.co.jp/article/aichi/20091112/CK2009111202000185.html	中日�
 http://www.chunichi.co.jp/article/aichi/20091124/CK2009112402000026.html	中日新聞:勝川駅の高架化完了　記念乗車会に２５０人:愛知(CHUNICHI Web)	勝川駅の高架化完了　記念乗車会に２５０人:愛知
 http://www.cnn.co.jp/business/CNN200912230029.html	CNN.co.jp：「失業者」向けの「格安料金列車」の運行発表、インド鉄道省	「失業者」向けの「格安料金列車」の運行発表、インド鉄道省
 http://www.cnn.co.jp/world/CNN200910210009.html	CNN.co.jp：インドで急行列車同士が衝突、乗客死傷	インドで急行列車同士が衝突、乗客死傷
+http://www.ehime-np.co.jp/news/kyodo/20091212/ky2009121201000164.html	将来にわたり尼崎脱線被害者ケア/ＪＲ西、漏えいで説明 愛媛新聞社ONLINE	将来にわたり尼崎脱線被害者ケア/ＪＲ西、漏えいで説明
+http://www.ehime-np.co.jp/news/local/20091120/news20091120975.html	ＪＲ松山周辺整備で啓発看板を設置 愛媛新聞社ONLINE	ＪＲ松山周辺整備で啓発看板を設置
 http://www.fnn-news.com/news/headlines/articles/CONN00166779.html	FNNニュース: 警視庁公安部の52歳...	警視庁公安部の52歳...
 http://www.fnn-news.com/news/headlines/articles/CONN00166831.html	FNNニュース: JR福知山線脱線事故...	JR福知山線脱線事故...
 http://www.gifu-np.co.jp/hot/20100213/201002130854_3798.shtml	バレンタイントレイン列車運行　明知鉄道 岐阜新聞 Web	バレンタイントレイン列車運行　明知鉄道
@@ -115,6 +117,8 @@ http://www.shikoku-np.co.jp/kagawa_news/column/article.aspx?id=20091120000084	�
 http://www.shikoku-np.co.jp/kagawa_news/social/article.aspx?id=20100203000144	電車にはねられ女性死亡／高松 | 香川のニュース | 四国新聞社	電車にはねられ女性死亡／高松
 http://www.shikoku-np.co.jp/national/economy/article.aspx	北京汽車、サーブを一部買収／乗用車やエンジン技術 | 全国ニュース | 四国新聞社	北京汽車、サーブを一部買収／乗用車やエンジン技術
 http://www.shikoku-np.co.jp/sports/local/article.aspx?id=20100211000088	遠山(観音寺中)初の国際大会／アジアJr.新体操 | スポーツニュース | 四国新聞社	遠山(観音寺中)初の国際大会／アジアJr.新体操
+http://www.shimotsuke.co.jp/news/tochigi/economics/news/20091224/256444	ＪＲ宇都宮駅東口暫定利用　餃子店と病院が事業予定者 ｜下野新聞「ＳＯＯＮ」	ＪＲ宇都宮駅東口暫定利用　餃子店と病院が事業予定者
+http://www.shimotsuke.co.jp/news/tochigi/region/news/20091116/235985	鉄道作業車も冬支度　野岩鉄道で除雪仕様に ｜下野新聞「ＳＯＯＮ」	鉄道作業車も冬支度　野岩鉄道で除雪仕様に
 http://www.shinmai.co.jp/news/20091114/KT091113ATI090016000022.htm	信濃毎日新聞［信毎web］　リニアルート　国交相、引き続きＪＲと県の協議必要−との認識	リニアルート　国交相、引き続きＪＲと県の協議必要−との認識
 http://www.shinmai.co.jp/news/20091114/a-2.htm	中継ミスで２チーム失格　県縦断駅伝｜長野全県ダイジェスト｜信濃毎日新聞［信毎web］	中継ミスで２チーム失格　県縦断駅伝
 http://www.shinmai.co.jp/news/20091114/k-6.htm	軽井沢のセールで臨時列車を運行｜東北信ダイジェスト｜信濃毎日新聞［信毎web］	軽井沢のセールで臨時列車を運行

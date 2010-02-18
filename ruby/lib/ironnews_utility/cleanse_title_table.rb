@@ -86,6 +86,9 @@ module IronnewsUtility
     "www.cnn.co.jp" => [
       [%r'\ACNN\.co\.jp：(.+)\Z', '\1'].freeze,
     ].freeze,
+    "www.ehime-np.co.jp" => [
+      [%r'\A(.+) 愛媛新聞社ONLINE\Z', '\1'].freeze,
+    ].freeze,
     "www.fnn-news.com" => [
       [%r'\AFNNニュース: (.+)\Z', '\1'].freeze,
     ].freeze,
@@ -144,6 +147,9 @@ module IronnewsUtility
       [%r'\A(.+) \| 四国新聞社\Z', '\1'].freeze,
       [%r'\A(.+) \| (?:香川の|全国|スポーツ)ニュース\Z', '\1'].freeze,
       [%r'\A(.+)―四国新聞社\Z', '\1'].freeze,
+    ].freeze,
+    "www.shimotsuke.co.jp" => [
+      [%r'\A(.+) ｜下野新聞「ＳＯＯＮ」\Z', '\1'].freeze,
     ].freeze,
     "www.shinmai.co.jp" => [
       [%r'\A信濃毎日新聞［信毎web］　(.+)\Z', '\1'].freeze,
