@@ -46,9 +46,13 @@ IronnewsUtility.CleanseTitleTable = {
   "www.sankei-kansai.com": [[/^(.+)：産経関西（産経新聞大阪本社公式ニュースサイト）$/, "$1"]],
   "www.sankeibiz.jp": [[/^(.+) - SankeiBiz（サンケイビズ）$/, "$1"],[/^(.+) \(\d+\/\d+ページ\)$/, "$1"]],
   "www.shikoku-np.co.jp": [[/^(.+) \| 四国新聞社$/, "$1"],[/^(.+) \| (?:香川の|全国|スポーツ)ニュース$/, "$1"],[/^(.+)―四国新聞社$/, "$1"]],
+  "www.shinmai.co.jp": [[/^信濃毎日新聞［信毎web］　(.+)$/, "$1"],[/^(.+)｜信濃毎日新聞［信毎web］$/, "$1"],[/^(.+)｜(?:長野全県|東北信|中南信)ダイジェスト$/, "$1"]],
+  "www.sponichi.co.jp": [[/^(.+) ― スポニチ Sponichi Annex ニュース$/, "$1"],[/^(.+) ― スポニチ Sponichi Annex 大阪$/, "$1"]],
   "www.tetsudo.com": [[/^(.+) - 鉄道コム$/, "$1"]],
   "www.tokyo-np.co.jp": [[/^東京新聞:(.+)\(TOKYO Web\)$/, "$1"]],
+  "www.toonippo.co.jp": [[/^(.+)／Ｗｅｂ東奥・ニュース\d{14}$/, "$1"]],
   "www.yomiuri.co.jp": [[/^(.+) : YOMIURI ONLINE（読売新聞）$/, "$1"],[/^(.+) : (社会|マネー・経済|国際|地域|旅ゅ〜ん！)$/, "$1"],[/^(.+) : 経済ニュース$/, "$1"]],
+  "yamagata-np.jp": [[/^(.+)｜山形新聞$/, "$1"]],
 //</CleanseTitleTable>
   end: null
 };

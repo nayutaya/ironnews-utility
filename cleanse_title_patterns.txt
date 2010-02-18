@@ -44,7 +44,13 @@ svr.sanyo.oni.co.jp	\A(.+) - 山陽新聞地域ニュース\Z	\1
 www.shikoku-np.co.jp	\A(.+) \| 四国新聞社\Z	\1
 www.shikoku-np.co.jp	\A(.+) \| (?:香川の|全国|スポーツ)ニュース\Z	\1
 www.shikoku-np.co.jp	\A(.+)―四国新聞社\Z	\1
+www.shinmai.co.jp	\A信濃毎日新聞［信毎web］　(.+)\Z	\1
+www.shinmai.co.jp	\A(.+)｜信濃毎日新聞［信毎web］\Z	\1
+www.shinmai.co.jp	\A(.+)｜(?:長野全県|東北信|中南信)ダイジェスト\Z	\1
+www.sponichi.co.jp	\A(.+) ― スポニチ Sponichi Annex ニュース\Z	\1
+www.sponichi.co.jp	\A(.+) ― スポニチ Sponichi Annex 大阪\Z	\1
 www.tokyo-np.co.jp	\A東京新聞:(.+)\(TOKYO Web\)\Z	\1
+www.toonippo.co.jp	\A(.+)／Ｗｅｂ東奥・ニュース\d{14}\Z	\1
 headlines.yahoo.co.jp	\A(.+) - Yahoo!ニュース\Z	\1
 headlines.yahoo.co.jp	\A(.+)（.+）\Z	\1
 kyushu.yomiuri.co.jp	\A(.+) : 九州発 : YOMIURI ONLINE（読売新聞）\Z	\1
@@ -64,4 +70,5 @@ response.jp	\A(.+) \| レスポンス自動車ニュース（Response.jp）\Z	\1
 www.sankeibiz.jp	\A(.+) - SankeiBiz（サンケイビズ）\Z	\1
 www.sankeibiz.jp	\A(.+) \(\d+/\d+ページ\)\Z	\1
 slashdot.jp	\A(.+) - スラッシュドット・ジャパン\Z	\1
+yamagata-np.jp	\A(.+)｜山形新聞\Z	\1
 gigazine.net	\A(.+) - GIGAZINE\Z	\1

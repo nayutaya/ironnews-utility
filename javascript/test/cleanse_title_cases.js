@@ -128,5 +128,16 @@ var CleanseTitleCases = [
   ["http://www.yomiuri.co.jp/national/news/20100105-OYT1T01399.htm","東武東上線の踏切、女性はねられ重傷 : 社会 : YOMIURI ONLINE（読売新聞）","東武東上線の踏切、女性はねられ重傷"],
   ["http://www.yomiuri.co.jp/tabi/domestic/railway/20091211-OYT8T00617.htm","走れジングル号…津軽鉄道がＸマス列車 : 列島鉄道便り : 国内 : 旅ゅ〜ん！ : YOMIURI ONLINE（読売新聞）","走れジングル号…津軽鉄道がＸマス列車 : 列島鉄道便り : 国内"],
   ["http://www.yomiuri.co.jp/world/news/20091221-OYT1T00538.htm","欧州寒波、死者３８人に…空港閉鎖も : 国際 : YOMIURI ONLINE（読売新聞）","欧州寒波、死者３８人に…空港閉鎖も"],
+  ["http://www.shinmai.co.jp/news/20091114/KT091113ATI090016000022.htm","信濃毎日新聞［信毎web］　リニアルート　国交相、引き続きＪＲと県の協議必要−との認識","リニアルート　国交相、引き続きＪＲと県の協議必要−との認識"],
+  ["http://www.shinmai.co.jp/news/20091114/a-2.htm","中継ミスで２チーム失格　県縦断駅伝｜長野全県ダイジェスト｜信濃毎日新聞［信毎web］","中継ミスで２チーム失格　県縦断駅伝"],
+  ["http://www.shinmai.co.jp/news/20091114/k-6.htm","軽井沢のセールで臨時列車を運行｜東北信ダイジェスト｜信濃毎日新聞［信毎web］","軽井沢のセールで臨時列車を運行"],
+  ["http://www.shinmai.co.jp/news/20091114/m-3.htm","ＪＲ岡谷駅前ビルに初の観光案内所｜中南信ダイジェスト｜信濃毎日新聞［信毎web］","ＪＲ岡谷駅前ビルに初の観光案内所"],
+  ["http://www.sponichi.co.jp/baseball/flash/KFullFlash20100212106.html","少年野球めぐる訴訟…赤星さんに「賠償責任なし」（野球） ― スポニチ Sponichi Annex ニュース","少年野球めぐる訴訟…赤星さんに「賠償責任なし」（野球）"],
+  ["http://www.sponichi.co.jp/baseball/news/2009/11/17/26.html","散発６安打…ＪＲ東日本、無念の零敗に涙（野球） ― スポニチ Sponichi Annex ニュース","散発６安打…ＪＲ東日本、無念の零敗に涙（野球）"],
+  ["http://www.sponichi.co.jp/osaka/base/200911/11/base225439.html","阪神ドラ１・二神、後輩たちの前で“開幕１軍宣言” ― スポニチ Sponichi Annex 大阪","阪神ドラ１・二神、後輩たちの前で“開幕１軍宣言”"],
+  ["http://www.toonippo.co.jp/news_too/nto2009/20091125212033.asp","青い森鉄道、青森延伸へ許可申請／Ｗｅｂ東奥・ニュース20091125212033","青い森鉄道、青森延伸へ許可申請"],
+  ["http://www.toonippo.co.jp/news_too/nto2009/20091129140048.asp","新幹線開業イベント企画を公募／Ｗｅｂ東奥・ニュース20091129140048","新幹線開業イベント企画を公募"],
+  ["http://yamagata-np.jp/news/200912/21/kj_2009122100365.php","大雪でＪＲ各線に遅れ、運休　事故や信号トラブルなど｜山形新聞","大雪でＪＲ各線に遅れ、運休　事故や信号トラブルなど"],
+  ["http://yamagata-np.jp/news/200912/21/kj_2009122100372.php","サンタさんと「ピース」　フラワー長井線で企画列車｜山形新聞","サンタさんと「ピース」　フラワー長井線で企画列車"],
 //</CleanseTitleCases>
 ];

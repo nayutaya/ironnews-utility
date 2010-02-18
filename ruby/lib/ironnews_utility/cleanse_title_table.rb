@@ -145,16 +145,31 @@ module IronnewsUtility
       [%r'\A(.+) \| (?:香川の|全国|スポーツ)ニュース\Z', '\1'].freeze,
       [%r'\A(.+)―四国新聞社\Z', '\1'].freeze,
     ].freeze,
+    "www.shinmai.co.jp" => [
+      [%r'\A信濃毎日新聞［信毎web］　(.+)\Z', '\1'].freeze,
+      [%r'\A(.+)｜信濃毎日新聞［信毎web］\Z', '\1'].freeze,
+      [%r'\A(.+)｜(?:長野全県|東北信|中南信)ダイジェスト\Z', '\1'].freeze,
+    ].freeze,
+    "www.sponichi.co.jp" => [
+      [%r'\A(.+) ― スポニチ Sponichi Annex ニュース\Z', '\1'].freeze,
+      [%r'\A(.+) ― スポニチ Sponichi Annex 大阪\Z', '\1'].freeze,
+    ].freeze,
     "www.tetsudo.com" => [
       [%r'\A(.+) - 鉄道コム\Z', '\1'].freeze,
     ].freeze,
     "www.tokyo-np.co.jp" => [
       [%r'\A東京新聞:(.+)\(TOKYO Web\)\Z', '\1'].freeze,
     ].freeze,
+    "www.toonippo.co.jp" => [
+      [%r'\A(.+)／Ｗｅｂ東奥・ニュース\d{14}\Z', '\1'].freeze,
+    ].freeze,
     "www.yomiuri.co.jp" => [
       [%r'\A(.+) : YOMIURI ONLINE（読売新聞）\Z', '\1'].freeze,
       [%r'\A(.+) : (社会|マネー・経済|国際|地域|旅ゅ〜ん！)\Z', '\1'].freeze,
       [%r'\A(.+) : 経済ニュース\Z', '\1'].freeze,
+    ].freeze,
+    "yamagata-np.jp" => [
+      [%r'\A(.+)｜山形新聞\Z', '\1'].freeze,
     ].freeze,
   }.freeze
 end

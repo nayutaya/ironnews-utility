@@ -115,13 +115,24 @@ http://www.shikoku-np.co.jp/kagawa_news/column/article.aspx?id=20091120000084	�
 http://www.shikoku-np.co.jp/kagawa_news/social/article.aspx?id=20100203000144	電車にはねられ女性死亡／高松 | 香川のニュース | 四国新聞社	電車にはねられ女性死亡／高松
 http://www.shikoku-np.co.jp/national/economy/article.aspx	北京汽車、サーブを一部買収／乗用車やエンジン技術 | 全国ニュース | 四国新聞社	北京汽車、サーブを一部買収／乗用車やエンジン技術
 http://www.shikoku-np.co.jp/sports/local/article.aspx?id=20100211000088	遠山(観音寺中)初の国際大会／アジアJr.新体操 | スポーツニュース | 四国新聞社	遠山(観音寺中)初の国際大会／アジアJr.新体操
+http://www.shinmai.co.jp/news/20091114/KT091113ATI090016000022.htm	信濃毎日新聞［信毎web］　リニアルート　国交相、引き続きＪＲと県の協議必要−との認識	リニアルート　国交相、引き続きＪＲと県の協議必要−との認識
+http://www.shinmai.co.jp/news/20091114/a-2.htm	中継ミスで２チーム失格　県縦断駅伝｜長野全県ダイジェスト｜信濃毎日新聞［信毎web］	中継ミスで２チーム失格　県縦断駅伝
+http://www.shinmai.co.jp/news/20091114/k-6.htm	軽井沢のセールで臨時列車を運行｜東北信ダイジェスト｜信濃毎日新聞［信毎web］	軽井沢のセールで臨時列車を運行
+http://www.shinmai.co.jp/news/20091114/m-3.htm	ＪＲ岡谷駅前ビルに初の観光案内所｜中南信ダイジェスト｜信濃毎日新聞［信毎web］	ＪＲ岡谷駅前ビルに初の観光案内所
+http://www.sponichi.co.jp/baseball/flash/KFullFlash20100212106.html	少年野球めぐる訴訟…赤星さんに「賠償責任なし」（野球） ― スポニチ Sponichi Annex ニュース	少年野球めぐる訴訟…赤星さんに「賠償責任なし」（野球）
+http://www.sponichi.co.jp/baseball/news/2009/11/17/26.html	散発６安打…ＪＲ東日本、無念の零敗に涙（野球） ― スポニチ Sponichi Annex ニュース	散発６安打…ＪＲ東日本、無念の零敗に涙（野球）
+http://www.sponichi.co.jp/osaka/base/200911/11/base225439.html	阪神ドラ１・二神、後輩たちの前で“開幕１軍宣言” ― スポニチ Sponichi Annex 大阪	阪神ドラ１・二神、後輩たちの前で“開幕１軍宣言”
 http://www.tetsudo.com/news/459/%E5%B2%A9%E8%A6%8B%E6%B2%A2%E8%A4%87%E5%90%88%E9%A7%85%E8%88%8E%E3%81%8C%E3%82%B0%E3%83%83%E3%83%89%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E5%A4%A7%E8%B3%9E/	岩見沢複合駅舎がグッドデザイン大賞 - 鉄道コム	岩見沢複合駅舎がグッドデザイン大賞
 http://www.tetsudo.com/news/462/%E7%A9%BA%E6%B8%AF%E7%AC%AC2%E3%83%93%E3%83%AB%E9%A7%85%E3%81%AB%E4%B8%8A%E3%82%8A%E3%83%9B%E3%83%BC%E3%83%A0%E6%96%B0%E8%A8%AD%E3%80%80%E4%BA%AC%E6%88%90/	空港第2ビル駅に上りホーム新設　京成 - 鉄道コム	空港第2ビル駅に上りホーム新設　京成
 http://www.tokyo-np.co.jp/article/chiba/20091107/CK2009110702000096.html	東京新聞:モノレールが衝突　千葉　作業中のクレーン車に　乗客１６０人けがなし:千葉(TOKYO Web)	モノレールが衝突　千葉　作業中のクレーン車に　乗客１６０人けがなし:千葉
 http://www.tokyo-np.co.jp/article/chiba/20091115/CK2009111502000082.html	東京新聞:ボジョレ列車　１９日に特別運行　千葉モノレール:千葉(TOKYO Web)	ボジョレ列車　１９日に特別運行　千葉モノレール:千葉
+http://www.toonippo.co.jp/news_too/nto2009/20091125212033.asp	青い森鉄道、青森延伸へ許可申請／Ｗｅｂ東奥・ニュース20091125212033	青い森鉄道、青森延伸へ許可申請
+http://www.toonippo.co.jp/news_too/nto2009/20091129140048.asp	新幹線開業イベント企画を公募／Ｗｅｂ東奥・ニュース20091129140048	新幹線開業イベント企画を公募
 http://www.yomiuri.co.jp/atmoney/news/20091222-OYT1T00025.htm	「鉄道博物館」効果１１１億円、レッズ優勝に匹敵 : 経済ニュース : マネー・経済 : YOMIURI ONLINE（読売新聞）	「鉄道博物館」効果１１１億円、レッズ優勝に匹敵
 http://www.yomiuri.co.jp/e-japan/kumamoto/news/20091231-OYT8T00638.htm	新幹線 熊本駅…おてもやん土産、起爆剤に : 熊本 : 地域 : YOMIURI ONLINE（読売新聞）	新幹線 熊本駅…おてもやん土産、起爆剤に : 熊本
 http://www.yomiuri.co.jp/national/news/20100105-OYT1T00745.htm	ＪＲ東サイト改ざんウイルス、ホンダなども被害 : 社会 : YOMIURI ONLINE（読売新聞）	ＪＲ東サイト改ざんウイルス、ホンダなども被害
 http://www.yomiuri.co.jp/national/news/20100105-OYT1T01399.htm	東武東上線の踏切、女性はねられ重傷 : 社会 : YOMIURI ONLINE（読売新聞）	東武東上線の踏切、女性はねられ重傷
 http://www.yomiuri.co.jp/tabi/domestic/railway/20091211-OYT8T00617.htm	走れジングル号…津軽鉄道がＸマス列車 : 列島鉄道便り : 国内 : 旅ゅ〜ん！ : YOMIURI ONLINE（読売新聞）	走れジングル号…津軽鉄道がＸマス列車 : 列島鉄道便り : 国内
 http://www.yomiuri.co.jp/world/news/20091221-OYT1T00538.htm	欧州寒波、死者３８人に…空港閉鎖も : 国際 : YOMIURI ONLINE（読売新聞）	欧州寒波、死者３８人に…空港閉鎖も
+http://yamagata-np.jp/news/200912/21/kj_2009122100365.php	大雪でＪＲ各線に遅れ、運休　事故や信号トラブルなど｜山形新聞	大雪でＪＲ各線に遅れ、運休　事故や信号トラブルなど
+http://yamagata-np.jp/news/200912/21/kj_2009122100372.php	サンタさんと「ピース」　フラワー長井線で企画列車｜山形新聞	サンタさんと「ピース」　フラワー長井線で企画列車
